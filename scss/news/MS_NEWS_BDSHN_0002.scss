@@ -1,0 +1,50 @@
+.gb-tintuc-table_bdshn{
+  table{
+    width: 100%;
+  }
+  thead{
+    background: $color-main-bdshn;
+    line-height: 40px;
+  }
+  tr{
+    .col-1{
+      width: 61px;
+    }
+    .col-2{
+      width: 120px;
+    }
+    .col-3{
+      width: 180px;
+    }
+    .col-4{
+      width: 120px;
+
+    }
+    .col-5{
+      width: 120px;
+    }
+    th{
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    td{
+      font-size: 14px;
+      border: 1px solid #ddd;
+      a{
+        color: $color-1;
+      }
+      p{
+        a{
+          display:  block;
+          margin-top: 5px;
+          img{
+            width: 60%;
+            height: 60%;
+          }
+        }
+      }
+    }
+  }
+}

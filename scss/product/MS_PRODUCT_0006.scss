@@ -1,0 +1,31 @@
+.quantity{
+  float: left;
+  label{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2.18;
+    text-align: left;
+    color: #666666;
+    text-transform: capitalize;
+    span{
+      text-transform: initial;
+      font-weight: normal;
+    }
+  }
+  input{
+    width: 75px;
+    height: 36px;
+    border-radius: 0;
+    border: solid 1px #aeaeae;
+  }
+  .form-control{
+    margin-bottom: 0;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+}
+.cart{
+  position: relative;
+  padding-top: 10px;
+}

@@ -1,0 +1,23 @@
+.gb-sidebar-danhmucsanpham-vyhofoco-list{
+  ul{
+    li{
+      a{
+        display: block;
+        font-size: 16px;
+        line-height: 40px;
+        color: #7a7a7a;
+        font-weight: normal;
+        transition: all 0.5s;
+        border-bottom: 1px dashed $color-grey;
+        i{
+          color: $color-main-vyhofoco;
+          margin-right: 10px;
+        }
+        &:hover{
+          color: $color-main-vyhofoco;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}

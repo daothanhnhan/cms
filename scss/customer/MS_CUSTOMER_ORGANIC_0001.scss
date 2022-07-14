@@ -1,0 +1,44 @@
+.gb-custommer_organic{
+  background: url("../images/bg-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  .gb-news-blog_organic-title{
+    font-size: 24px;
+    color: $color-1;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .gb-custommer_organic-content-text{
+    background-color: transparent !important;
+    background-image: url(../images/testimonial_bg.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    color: #777777 !important;
+    padding: 0 15%;
+    height: 242px;
+    @media screen and (max-width: 767px) {
+      height: auto;
+    }
+  }
+  .gb-custommer_organic-content{
+    position: relative;
+    top: 50%;
+    p{
+      font-size: 18px;
+      line-height: 1.65em;
+      margin-top: -7px;
+      padding: 2% 6%;
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
+  }
+  .gb-custommer_organic-content-img{
+    padding: 0 15%;
+    margin-top: 50px;
+  }
+  .slide-item{
+    padding-bottom: 100px;
+  }
+}

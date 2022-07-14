@@ -1,0 +1,90 @@
+.gb-chitiet_duan-landingpage-right_ldpvinhome{
+  background: #f1f1f1;
+  padding: 20px;
+  h4{
+    background-color: $color-main-ldpvinhome;
+    padding: 15px;
+    letter-spacing: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  ul{
+    margin-bottom: 10px;
+    li{
+      line-height: 1.6180em;
+      font-size: 14px;
+    }
+  }
+  label{
+    color: $color-main-ldpvinhome;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .btn-taibanggia{
+    width: 100%;
+    background: $color-main-ldpvinhome;
+    color: #fff;
+  }
+  p{
+    margin: 10px 0;
+    span{
+      color: $color-main-ldpvinhome;
+      padding-right: 10px;
+    }
+    &.phone-contact{
+      font-size: 22px;
+      font-weight: 700;
+      color: #ED8D00;
+    }
+    &.mail-contact{
+      color: #109CFF;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+}
+
+/*TIN TỨC*/
+.gb-chitiet_duan-tintuc_ldpvinhome{
+  border-top: 1px dashed #ccc;
+  margin-top: 50px;
+  .gb-duan-title{
+    h3{
+      font-size: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: $color-main-ldpvinhome;
+    }
+  }
+
+  .gb-chitiet_duan-tintuc-item_ldpvinhome{
+    display: flex;
+    .item-img{
+      width: 100px;
+      float: left;
+    }
+    .item-text{
+      padding-left: 20px;
+      h4{
+        a{
+          color: #333;
+          font-size: 14px;
+          transition: all 0.5s;
+          &:hover{
+            color: $color-main-ldpvinhome;
+          }
+        }
+      }
+      .date{
+        display: block;
+        margin-top: 5px;
+        font-size: 14px;
+        color: #eb0b00;
+      }
+    }
+  }
+}

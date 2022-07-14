@@ -1,0 +1,74 @@
+.gb-banner1_ldp_daimond{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  &:hover{
+    .overlay{
+      left: -35%;
+    }
+  }
+  .overlay{
+    height: 100%;
+    left: -195%;
+    width: 155%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skewX(-34deg);
+    -moz-transform: skewX(-34deg);
+    -ms-transform: skewX(-34deg);
+    -o-transform: skewX(-34deg);
+    transform: skewX(-34deg);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .block-content_ldp_daimond{
+    padding-left: 50px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    h6{
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: $color-white;
+    }
+    h4{
+      text-transform: inherit;
+      font-weight: 300;
+      margin: 0 0 15px;
+      margin-bottom: 30px;
+      color: $color-white;
+      line-height: 1.4;
+    }
+    p{
+      margin: 0 0 15px 0;
+      margin-bottom: 25px;
+      color: $color-white;
+      line-height: 24px;
+    }
+    a{
+      display:  block;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: normal;
+      letter-spacing: 2px;
+      color: $color-white;
+    }
+
+  }
+}

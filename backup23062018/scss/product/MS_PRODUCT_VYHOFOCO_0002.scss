@@ -1,0 +1,113 @@
+.gb-tabproduct-home_vyhofoco{
+  .item-tab-text{
+    margin-bottom: 40px;
+    .nav-tabs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: none;
+      @media screen and (max-width: 767px) {
+        display:  block;
+      }
+    }
+    .nav-tabs > li {
+      margin-right: 2px;
+      margin-bottom: 0;
+      position: relative;
+      &:after{
+        content: '\f005';
+        font-family: FontAwesome;
+        position: absolute;
+        top: 15px;
+        font-size: 10px;
+        right: -5px;
+
+      }
+      &:last-child{
+        &:after{
+          content: '';
+        }
+      }
+      @media screen and (max-width: 767px) {
+        width: 49%;
+        float: left;
+      }
+    }
+    .nav-tabs > li > a {
+      border: 0;
+      margin-right: 0;
+      color: $color-grey;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 10px 30px;
+      @media screen and (max-width: 767px) {
+        font-size: 10px;
+      }
+    }
+    .nav-tabs > li.open > a,  .nav-tabs > li:hover > a {
+      border: 0;
+      background: none !important;
+      color: $color-main-vyhofoco;
+    }
+    .nav-tabs > li.active {
+      position: relative;
+    }
+    .nav-tabs > li.active > a {
+      border: 0;
+      color: $color-main-vyhofoco;
+    }
+    .tab-content {
+      margin-top: -3px;
+      background-color: $color-white;
+      border: 0;
+      padding-top: 60px;
+    }
+    .portlet  .tab-content {
+      padding-bottom: 0;
+    }
+  }
+
+
+  .tabproduct_item_vyhofoco{
+    margin-bottom: 30px;
+    .product_item_img_vyhofoco{
+      overflow:  hidden;
+      img{
+        width: 100%;
+        height: 270px;
+        transition:  all 0.5s;
+        &:hover{
+          transform:  scale(1.1);
+        }
+        @media screen and (max-width: 767px) {
+          height: auto !important;
+        }
+      }
+    }
+    .product_item_text_vyhofoco{
+      padding-top: 20px;
+      h2{
+        a{
+          display:  block;
+          color: $color-grey;
+          font-size: 14px;
+          font-weight: 600;
+          text-transform: uppercase;
+          position: relative;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .product_item_price_chitiet_vyhofoco{
+      position: relative;
+      text-align: center;
+      @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+         .prices_vyhofoco .prices-news_vyhofoco{
+           color: #f0b90e;
+         }
+    }
+  }
+}

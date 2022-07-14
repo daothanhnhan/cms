@@ -1,0 +1,71 @@
+.gb-search-center_vyhofoco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 81px;
+  .icons-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #22292d;
+    font-family: FontAwesome;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #22292d;
+    &:hover{
+      cursor: pointer;
+    }
+    .search{
+      width: 300px;
+      height: 50px;
+      overflow: hidden;
+      position: absolute;
+      margin-left: -125px;
+      visibility: hidden;
+      transition: all 0.5s;
+      .search-field {
+        width: 100%;
+        height: 50px;
+        margin-right: -300px !important;
+        padding-left: 20px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        color: #999999;
+        background: #343c40;
+        text-transform: capitalize;
+        float: right;
+        transform-origin: right;
+        transition: all 0.5s;
+      }
+      .close-search {
+        width: 50px;
+        height: 50px;
+        right: 0;
+        margin-top: 0;
+        border: none;
+        outline: none;
+        position: absolute;
+        z-index: 1000;
+        background: #343c40;
+        color: #e57632;
+        display: none;
+        transition: all 0.5s;
+      }
+      .block-search {
+        margin-right: 0px !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transition: all 0.5s;
+      }
+    }
+  }
+}

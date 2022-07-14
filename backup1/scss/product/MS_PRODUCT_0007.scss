@@ -1,0 +1,27 @@
+
+.box-price-cms{
+  text-align: center;
+  line-height: 2.5;
+  .price-old{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    text-decoration: line-through;
+    margin-right: 20px;
+  }
+  .price-sale{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+  }
+}

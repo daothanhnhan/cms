@@ -1,0 +1,45 @@
+/* ------------------- */
+#Content-Support_ariotoys {
+  width: 100%;
+  float: left; }
+
+.box_support_ariotoys {
+  width: 100%;
+  float: left; }
+
+.list_support_ariotoys {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee; }
+
+.item_support_ariotoys {
+  width: 33.335%;
+  border-right: 1px solid #eee;
+  padding: 5px 20px; }
+
+.item_support_ariotoys:last-child {
+  border-right: 0; }
+
+.item_support_ariotoys > a > i {
+  width: 20%;
+  font-size: 50px;
+  color: #a7a7a7;
+  padding: 0 10px; }
+
+.info_support_ariotoys {
+  width: 75%;
+  float: right; }
+
+.info_support_ariotoys > a {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #a7a7a7;
+  font-weight: 600;
+  width: 100%; }
+
+.info_support_ariotoys > p {
+  color: #5b5b5b;
+  margin-top: 10px; }

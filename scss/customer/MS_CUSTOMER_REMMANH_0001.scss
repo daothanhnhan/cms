@@ -1,0 +1,61 @@
+.gb-chiasetukhachhang_remmanh{
+  padding: 50px 0;
+  h3{
+    color: $color-white;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .gb-chiasetukhachhang_remmanh-item{
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    .item-img{
+      width: 100px;
+      margin:  0 auto;
+      margin-bottom: 10px;
+      img{
+        border: 3px solid $color-white;
+      }
+    }
+    .rightCustomer_remmanh{
+      .nameCustomer1_remmanh{
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        color: $color-white;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .addressCustomer_remmanh{
+        font-size: 15px;
+        color: $color-white;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .ideaCustomer_remmanh{
+        width: 100%;
+        font-size: 14px;
+        color: #dcdcdc;
+        font-style: italic;
+        text-align: center;
+      }
+      .linkCustomer_remmanh{
+        text-align: center;
+       a{
+         background: #f76b12;
+         padding: 10px 10px;
+         border-radius: 6px;
+         display: inline-block;
+         font-size: 15px;
+         margin-top: 10px;
+         color: $color-white;
+       }
+      }
+    }
+  }
+}

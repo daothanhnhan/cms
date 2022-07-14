@@ -1,0 +1,9 @@
+.gb-banner-3-ldpvinhome{
+  img{
+    width: 100%;
+    height: 570px;
+    @media screen and (max-width: 991px) {
+      height:  auto;
+    }
+  }
+}

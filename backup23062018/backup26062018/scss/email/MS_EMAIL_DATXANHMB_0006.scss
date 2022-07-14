@@ -1,0 +1,48 @@
+.gb-chitiet_duan-landingpage-right_datxanhmienbac{
+  background: #f1f1f1;
+  padding: 20px;
+  h4{
+    background-color: $color-main-datxanhmb;
+    padding: 15px;
+    letter-spacing: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  ul{
+    margin-bottom: 10px;
+    li{
+      line-height: 1.6180em;
+      font-size: 14px;
+    }
+  }
+  label{
+    color: $color-main-datxanhmb;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .btn-taibanggia{
+    width: 100%;
+    background: $color-main-datxanhmb;
+    color: #fff;
+  }
+  p{
+    margin: 10px 0;
+    span{
+      color: $color-main-datxanhmb;
+      padding-right: 10px;
+    }
+    &.phone-contact{
+      font-size: 22px;
+      font-weight: 700;
+      color: #ED8D00;
+    }
+    &.mail-contact{
+      color: #109CFF;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+}

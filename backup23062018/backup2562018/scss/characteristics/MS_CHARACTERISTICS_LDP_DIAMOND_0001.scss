@@ -1,0 +1,72 @@
+.gb-home-camnangmuakimcuong_ldp_diamond{
+  padding: 80px 0;
+  .gb-home-camnangmuakimcuong-title_ldp_diamond{
+    margin-bottom: 40px;
+    h2{
+      font-size: 32px;
+      margin-top: 0;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #8C6B31;
+      position: relative;
+      text-align: center;
+    }
+    .line{
+      margin: auto;
+      width: 70px;
+      position: relative;
+      border-top: 2px solid #000;
+      margin-top: 15px;
+    }
+    p{
+      margin-top: 15px;
+      color: $color-1;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 24px;
+    }
+  }
+}
+
+.gb-home-camnangmuakimcuong-body_ldp_diamond{
+  .gb-home-camnangmuakimcuong-contenthead_ldp_diamond{
+    .icons{
+      display: inline-flex;
+      align-items: center;
+      justify-content:  center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      font-size: 24px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      border: 1px solid #8C6B31;
+      float: left;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+    }
+    .text{
+      padding-left: 80px;
+      h4{
+        color: #8C6B31;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 22px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+  img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+}

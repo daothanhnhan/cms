@@ -1,0 +1,104 @@
+.item_product_ariotoys{
+  border: 1px solid $color-4;
+  padding: 10px;
+  margin-top: 30px;
+  min-height: 361px;
+}
+
+
+.header_list_product{
+  width: 100%;
+  background-color: #eaeaea;
+  padding: 12px;
+}
+
+.header_list_product span{
+  font-family: 'bebas', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #227688;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.header_list_product a{
+  float: right;
+  color: #227688;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+}
+
+.box_image_product_ariotoys{
+  position: relative;
+  a:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0 0 rgba(223,80,32,0.8);
+    opacity: 0;
+  }
+}
+
+.box_image_product_ariotoys img{
+  width: 100%;
+}
+
+.box_action_ariotoys{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 75%;
+  transform: translateX(-50%);
+  opacity: 0;
+  width: 110px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+.add_compare_ariotoys{
+  margin: 0 10px;
+}
+
+.box_action_ariotoys>a>i{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.box_action_ariotoys>a:hover{
+  background-color: #d9a31f;
+}
+
+.box_image_product_ariotoys:hover .box_action_ariotoys{
+  opacity: 1;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.box_image_product_ariotoys:hover>a:after{
+  opacity: 1;
+}
+
+.box_caption_product_ariotoys>h3>a{
+  width: 100%;
+  line-height: 1.6;
+  font-size: 13px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  margin: 10px 0;
+}

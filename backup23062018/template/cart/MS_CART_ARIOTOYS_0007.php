@@ -1,0 +1,2 @@
+<!-- <a href="#" class="add_cart" title="Thêm giỏ hàng"> </a> -->
+<a href="javascript:void(0)" class="add_cart" onclick="load_url('<?php echo $row['product_id'];?>', '<?php echo $rowLang1['lang_product_name'];?>', '<?php echo $row['product_price']-($row['product_price']*($row['product_price_sale']/100));?>')"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>

@@ -1,0 +1,14 @@
+.add_compare_goshi{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  background-color: $color-white;
+  transition: all 0.3s;
+  color: $color-1;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

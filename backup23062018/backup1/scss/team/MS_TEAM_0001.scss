@@ -1,0 +1,26 @@
+.uni-shortcode-team-2-cms{
+  .uni-team-default{
+    background: #fff;
+  }
+  .item-caption{
+    padding: 20px 0;
+    .item-title{
+      h4{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #404040;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      span{
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #404040;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

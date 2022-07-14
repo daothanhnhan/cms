@@ -1,0 +1,64 @@
+.gb-category-skincare-organic{
+  padding: 50px 0;
+  &-item{
+    &-text{
+      h5{
+        a{
+          display: block;
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin: 0 0 4px;
+          color: $color-1;
+          text-align: center;
+        }
+      }
+      h4{
+        a{
+          text-align: center;
+          display:  block;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 1.2px;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+          color: $color-grey;
+        }
+      }
+    }
+    &-img{
+      position: relative;
+      &:hover{
+        .btndoctiep-organic{
+          opacity: 1;
+          top: 50%;
+        }
+      }
+      img{
+        width: 100%;
+        height: 264px;
+        @media screen and (max-width: 767px) {
+          height:  auto;
+        }
+      }
+      .btndoctiep-organic{
+        min-width: 150px;
+        opacity: 0;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        color: $color-white;
+        font-weight: 700;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: $color-main-organic;
+        padding: 10px 0;
+        transition:  all 0.5s;
+        &:hover{
+          background: $color-1;
+        }
+      }
+    }
+  }
+}

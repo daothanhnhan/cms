@@ -1,0 +1,111 @@
+.gb-client-newletter-contact{
+  padding: 80px 0;
+}
+.cms-box-heading{
+  margin: 0 0 36px;
+  color: black;
+  display: table;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  position: relative;
+  width: 100%;
+  background: none;
+  .cms-heading-inner{
+    display: block;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+    text-transform: uppercase;
+    &:before{
+      background: #f4c400 none repeat scroll 0 0;
+      border: 5px solid #fff;
+      bottom: -20px;
+      content: " ";
+      height: 13px;
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      width: 36px;
+      z-index: 1
+    }
+  }
+}
+.gb-customer-say_vyhofoco{
+  padding: 50px 0;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 30px;
+  }
+  .gb-daehandoor-title{
+    h2{
+      color: $color-white;
+    }
+    p{
+      color: $color-white;
+    }
+  }
+  .item{
+    padding-top: 50px;
+  }
+  .gb-customer-say_vyhofoco-item{
+    border: 1px solid $color-grey;
+    padding: 30px 20px 20px 20px;
+    position: relative;
+    &:before{
+      content: "\f10e";
+      font-family: FontAwesome;
+      font-size: 30px;
+      color: $color-grey;
+      position: absolute;
+      right: 30px;
+      top: 13px;
+    }
+    .test-image{
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      top: -35px;
+      left: 20px;
+      img{
+        width: 100%;
+        height:  auto;
+      }
+    }
+    .testi-details{
+      padding-top: 10px;
+      padding-bottom: 20px;
+      a{
+        display: block;
+        color: $color-6;
+        line-height: 20px;
+        font-size: 13px;
+        text-align: left;
+        font-weight: 600;
+      }
+      span{
+        display: block;
+        margin-top: 5px;
+        color: $color-main-vyhofoco;
+        line-height: 20px;
+        font-size: 13px;
+        text-align: left;
+      }
+    }
+    .test-content{
+      padding-top: 20px;
+      p{
+        color: #808080;
+        line-height: 20px;
+        font-size: 13px;
+        text-align: left;
+      }
+    }
+    .media-image{
+      width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+  }
+}

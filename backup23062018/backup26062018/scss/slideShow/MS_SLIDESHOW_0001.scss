@@ -1,0 +1,47 @@
+.uni-slideshow-home-cms{
+  .owl-theme .owl-nav [class*=owl-]{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ccc;
+  }
+  .owl-nav{
+    .owl-prev{
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      @media screen and (max-width: 767px) {
+        display: none !important;
+      }
+      @media screen and (max-width: 991px) and (min-width: 768px) {
+        top: 35%;
+      }
+      &:before{
+        content: '\f104';
+        font-family: FontAwesome;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+    .owl-next{
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      @media screen and (max-width: 767px) {
+        display: none !important;
+      }
+      @media screen and (max-width: 991px) and (min-width: 768px) {
+        top: 35%;
+      }
+      &:before{
+        content: '\f105';
+        font-family: FontAwesome;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+  }
+}

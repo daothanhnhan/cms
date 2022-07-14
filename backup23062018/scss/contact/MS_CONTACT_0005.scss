@@ -1,0 +1,69 @@
+/*Contact info*/
+.uni-contact-info-cms{
+  @media screen and (max-width: 991px) {
+    margin: 50px 0;
+  }
+  .uni-contact-info-cms-title{
+    margin-bottom: 20px;
+    h4{
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 3;
+      letter-spacing: normal;
+      text-align: left;
+      color: #333333;
+      text-transform: uppercase;
+    }
+  }
+  .uni-contact-info-cms-body{
+    padding-top: 40px;
+    .item{
+      display:  flex;
+      margin-bottom: 20px;
+      .icon-holder-cms{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: solid 2px #f0ad4e;
+        font-family: FontAwesome;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        text-transform: capitalize;
+        color: #f0ad4e;
+        float: left;
+      }
+      .text-holder-cms{
+        padding-left: 20px;
+        p{
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          text-align: left;
+          color: #333333;
+        }
+        span{
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          text-align: left;
+          color: #aeaeae;
+        }
+      }
+    }
+  }
+}

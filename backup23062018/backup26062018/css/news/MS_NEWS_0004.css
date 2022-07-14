@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*content chi tiêt tuyển dụng*/
+.gb-chitiet_tuyendung-cms-body {
+  padding: 100px 0; }
+
+.vk-career-details-cms {
+  margin-bottom: 77px; }
+  .vk-career-details-cms .vk-career-details-cms-header h1 {
+    font-size: 36px;
+    line-height: 1;
+    text-align: left;
+    color: #222222;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 14px; }
+  .vk-career-details-cms .vk-career-details-cms-header p {
+    font-size: 14px;
+    line-height: 2.86;
+    text-align: left;
+    color: #7b7b7b;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #e9e9e9; }
+    .vk-career-details-cms .vk-career-details-cms-header p span {
+      font-weight: bold;
+      color: #222222;
+      margin-right: 10px; }
+  .vk-career-details-cms .vk-career-details-cms-noi-dung {
+    margin-top: 36px; }
+    .vk-career-details-cms .vk-career-details-cms-noi-dung h2 {
+      font-size: 24px;
+      text-align: left;
+      color: #222222; }
+    .vk-career-details-cms .vk-career-details-cms-noi-dung p {
+      font-size: 14px;
+      line-height: 2.86;
+      text-align: left;
+      color: #7b7b7b;
+      padding-left: 30px;
+      padding-top: 38px;
+      padding-bottom: 37px;
+      padding-right: 30px;
+      border-bottom: 1px solid #e9e9e9; }
+      .vk-career-details-cms .vk-career-details-cms-noi-dung p span {
+        color: #f0ad4e;
+        margin-right: 10px; }
+  .vk-career-details-cms .vk-career-details-cms-quyen-loi {
+    margin-top: 36px; }
+    .vk-career-details-cms .vk-career-details-cms-quyen-loi h2 {
+      font-size: 24px;
+      text-align: left;
+      color: #222222; }
+    .vk-career-details-cms .vk-career-details-cms-quyen-loi p {
+      font-size: 14px;
+      line-height: 2.86;
+      text-align: left;
+      color: #7b7b7b;
+      padding-left: 30px;
+      padding-top: 38px;
+      padding-bottom: 37px;
+      padding-right: 30px;
+      border-bottom: 1px solid #e9e9e9; }
+      .vk-career-details-cms .vk-career-details-cms-quyen-loi p span {
+        color: #f0ad4e;
+        margin-right: 10px; }
+  .vk-career-details-cms .vk-career-details-cms-yeu-cau {
+    margin-top: 36px; }
+    .vk-career-details-cms .vk-career-details-cms-yeu-cau h2 {
+      font-size: 24px;
+      text-align: left;
+      color: #222222; }
+    .vk-career-details-cms .vk-career-details-cms-yeu-cau p {
+      font-size: 14px;
+      line-height: 2.86;
+      text-align: left;
+      color: #7b7b7b;
+      padding-left: 30px;
+      padding-top: 38px;
+      padding-bottom: 37px;
+      padding-right: 30px;
+      border-bottom: 1px solid #e9e9e9; }
+      .vk-career-details-cms .vk-career-details-cms-yeu-cau p span {
+        color: #f0ad4e;
+        margin-right: 10px; }
+  .vk-career-details-cms .vk-career-details-cms-ho-so {
+    margin-top: 36px; }
+    .vk-career-details-cms .vk-career-details-cms-ho-so h2 {
+      font-size: 24px;
+      text-align: left;
+      color: #222222; }
+    .vk-career-details-cms .vk-career-details-cms-ho-so p {
+      font-size: 14px;
+      line-height: 2.86;
+      text-align: left;
+      color: #7b7b7b;
+      padding-left: 30px;
+      padding-top: 38px;
+      padding-bottom: 37px;
+      padding-right: 30px;
+      border-bottom: 1px solid #e9e9e9; }
+      .vk-career-details-cms .vk-career-details-cms-ho-so p span {
+        color: #f0ad4e;
+        margin-right: 10px; }
+  .vk-career-details-cms .vk-career-details-cms-hinh-thuc {
+    margin-top: 36px; }
+    .vk-career-details-cms .vk-career-details-cms-hinh-thuc h2 {
+      font-size: 24px;
+      text-align: left;
+      color: #222222; }
+    .vk-career-details-cms .vk-career-details-cms-hinh-thuc p {
+      font-size: 14px;
+      line-height: 2.86;
+      text-align: left;
+      color: #7b7b7b;
+      padding-left: 30px;
+      padding-top: 38px;
+      padding-right: 30px; }
+      .vk-career-details-cms .vk-career-details-cms-hinh-thuc p span {
+        color: #f0ad4e;
+        margin-right: 10px; }

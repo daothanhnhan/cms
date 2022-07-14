@@ -1,0 +1,67 @@
+.gb-banner-1_vyhofoco{
+  height: 220px;
+  overflow: hidden;
+  padding-left: 20px;
+  position: relative;
+  background: url("../images/banner/1.jpg") no-repeat center center;
+  background-size: cover;
+  display:  flex;
+  align-items: center;
+  &:before{
+    content: '';
+    position: absolute;
+    border: 1px solid $color-white;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+  .titleSlide_vyhofoco{
+    color:  $color-white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    &:before{
+      position: absolute;
+      top: -15px;
+      left: 0;
+      width: 60px;
+      height: 5px;
+      background-color: $color-main-vyhofoco;
+      content: "";
+    }
+  }
+  .noneSlide_vyhofoco{
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 20px 0;
+    position: relative;
+    z-index: 999;
+    text-shadow: 0 0 3px $color-main-vyhofoco;
+  }
+  a{
+    position: relative;
+    z-index: 999;
+    display: inline-block;
+    font-size: 14px;
+    color: $color-white;
+    padding: 5px 15px;
+    border: 2px solid $color-main-vyhofoco;
+    background: $color-main-vyhofoco;
+    transition:  all 0.5s;
+    &:hover{
+      color: $color-main-vyhofoco;
+      background: $color-white;
+    }
+  }
+}

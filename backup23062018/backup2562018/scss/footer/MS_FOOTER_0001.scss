@@ -1,0 +1,140 @@
+/*-----------FOOTER-----------*/
+.footer-default{
+  position: relative;
+  background-color: $color10;
+  .footer-main-content-cms{
+    padding: 60px 0;
+  }
+  .footer-main-content-cms-element{
+    .widget-title-cms{
+      font-family: $monserrat;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: italic;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: left;
+      color: $color3;
+      margin: 0;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .widget-content{
+      p{
+        font-family: $monserrat;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: $color12;
+        margin-bottom: 0;
+      }
+      //.uni-footer-business-hours-cms{
+      //  h4{
+      //    font-family: $monserrat;
+      //    font-size: 14px;
+      //    color: $color12;
+      //  }
+      //  .item{
+      //    border-bottom: 1px solid $color13;
+      //    padding-bottom: 30px;
+      //    margin-bottom: 30px;
+      //    &:last-child{
+      //      border-bottom: none;
+      //      padding-bottom: 0;
+      //      margin-bottom: 0;
+      //    }
+      //  }
+      //}
+      //.uni-footer-contact-info-cms{
+      //  ul{
+      //    li{
+      //      padding-bottom: 15px;
+      //      .icon{
+      //        float: left;
+      //        font-family: FontAwesome;
+      //        font-size: 14px;
+      //        font-weight: normal;
+      //        font-style: normal;
+      //        font-stretch: normal;
+      //        line-height: 2.5;
+      //        letter-spacing: normal;
+      //        text-align: left;
+      //        color: $color1;
+      //      }
+      //      .text{
+      //        padding-left: 30px;
+      //      }
+      //    }
+      //  }
+      //}
+      //.uni-footer-newletter-cms{
+      //  .input-group{
+      //    border-radius: 4px;
+      //    padding-bottom: 20px;
+      //  }
+      //  .form-control{
+      //    height: 44px;
+      //    background: $color13;
+      //    border: none;
+      //  }
+      //  span{
+      //    .btn-theme{
+      //      height: 44px;
+      //      background: $color13;
+      //      color: $color1;
+      //    }
+      //  }
+      //}
+    }
+  }
+  .copyright-area{
+    background-color: $color13;
+    p{
+      font-family: $monserrat;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: center;
+      color: $color12;
+      margin-bottom: 0;
+      padding: 26px 0;
+    }
+    .copyright-menu{
+      text-align: right;
+      li{
+        display: inline-block;
+        a{
+          font-family: $monserrat;
+          padding: 25px 10px;
+          display: block;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 2.14;
+          letter-spacing: normal;
+          text-align: right;
+          color: $color3;
+          transition:  all 0.5s;
+          @media screen and (max-width: 991px) {
+            padding: 0 10px;
+          }
+          @media screen and (max-width: 1199px) and (min-width: 992px) {
+            padding: 25px 5px;
+          }
+          &:hover{
+            color: $color1;
+          }
+        }
+      }
+    }
+  }
+}

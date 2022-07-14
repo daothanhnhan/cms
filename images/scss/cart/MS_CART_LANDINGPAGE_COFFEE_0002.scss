@@ -1,0 +1,24 @@
+.btn-dat-hang_ldpgreencoffee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  a{
+    display: block;
+    background: url(../images/butbut.png) 0 0 no-repeat;
+    width: 283px;
+    height: 73px;
+    cursor: pointer;
+    line-height: 73px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    z-index: 99;
+    transition:  all 0.5s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}

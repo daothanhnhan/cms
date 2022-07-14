@@ -1,0 +1,21 @@
+.action_product_goshi{
+  position: absolute;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background: $color-main-goshi;
+  width: 100%;
+  color: $color-white;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s;
+  .add_cart_goshi{
+    display: block;
+    font-size: 13px;
+    color: $color-white;
+    padding: 9px 0;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s;
+  }
+}

@@ -1,0 +1,43 @@
+.gb-batdongsanhanoi-tinhot_bdshn{
+  .gb-batdongsanhanoi-tinhot_bdshn-left{
+    .title_bdshn{
+      font-size: 11px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      position: relative;
+      padding: 10px 0;
+      background: #8dc330;
+      text-align: center;
+    }
+    .gb-tieude-tinh_bdshn{
+      color: #cc3300;
+      font-size: 14px;
+      padding: 10px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .gb-batdongsanhanoi-tinhot_bdshn-left-content{
+    ul{
+      li{
+        padding: 10px;
+        &:nth-child(2n+1){
+          background: #eee;
+        }
+        .gb-batdongsanhanoi-tinhot_bdshn-left-content-item{
+          a{
+            font-size: 13px;
+            color: $color-1;
+            line-height: 20px;
+          }
+          p{
+            color: #cc3300;
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

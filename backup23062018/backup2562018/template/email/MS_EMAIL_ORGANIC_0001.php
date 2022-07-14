@@ -1,0 +1,19 @@
+<?php
+    $send_email = new action_email();
+    $send_email->gui_email();
+?>
+<div class="gb-news-letter_organic">
+    <div class="gb-footer-newletter_organic">
+        <p>Nhận tin khuyến mãi sản phẩm mới nhất từ chúng tôi. Hãy nhập email của bạn vào bên dưới</p>
+        <form action="" method="post" accept-charset="utf-8">
+        	<div class="input-group">
+	            <input type="email" class="form-control" placeholder="Nhập email của bạn" required="">
+	            <span class="input-group-btn">
+	                <button class="btn btn-theme" type="submit" name="send_email">
+	                	<i class="fa fa-paper-plane" aria-hidden="true"></i>
+	                </button>
+	            </span>
+	        </div>
+        </form>
+    </div>
+</div>

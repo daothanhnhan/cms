@@ -1,0 +1,514 @@
+@import "base";
+@import "config";
+
+/*header*/
+@import "header/MS_HEADER_0001";
+@import "header/MS_HEADER_ARIOTOYS_0001";
+@import "header/MS_HEADER_LANDINGPAGE_0001";
+@import "header/MS_HEADER_REMMANH_0001";
+@import "header/MS_HEADER_LANDINGPAGE_COFFE_0001";
+@import "header/MS_HEADER_REM_0001";
+@import "header/MS_HEADER_LDPVNHOMES_0001";
+@import "header/MS_HEADER_ORGANIC_0001";
+@import "header/MS_HEADER_DATXANHMB_0001";
+@import "header/MS_HEADER_VYHOFOCO_0001";
+@import "header/MS_HEADER_XDSHOP_0001";
+@import "header/MS_HEADER_BANHATGIONG_0001";
+@import "header/MS_HEADER_BANHATGIONG_0001";
+
+/*MENU*/
+@import "menu/MS_MENU_0001";
+@import "menu/MS_MENU_0002";
+@import "menu/MS_MENU_ARIOTOYS_0001";
+@import "menu/MS_MENU_LANDINGPAGE1_0001";
+@import "menu/MS_MENU_REMMANH_0001";
+@import "menu/MS_MENU_REMMANH_0002";
+@import "menu/MS_MENU_LANDINGPAGE_COFFEE_0001";
+@import "menu/MS_MENU_LDP_DIAMOND_0001";
+@import "menu/MS_MENU_NAUSTORE_0001";
+@import "menu/MS_MENU_NAUSTORE_0002";
+@import "menu/MS_MENU_NAUSTORE_0003";
+@import "menu/MS_MENU_REM_0001";
+@import "menu/MS_MENU_REM_0002";
+@import "menu/MS_MENU_REM_0003";
+@import "menu/MS_MENU_LDPVNHOMES_0001";
+@import "menu/MS_MENU_LDPVNHOMES_0002";
+@import "menu/MS_MENU_ORGANIC_0001";
+@import "menu/MS_MENU_ORGANIC_0002";
+@import "menu/MS_MENU_DATXANHMB_0001";
+@import "menu/MS_MENU_DATXANHMB_0002";
+@import "menu/MS_MENU_VYHOFOCO_0001";
+@import "menu/MS_MENU_VYHOFOCO_0002";
+@import "menu/MS_MENU_VYHOFOCO_0003";
+@import "menu/MS_MENU_XDSHOP_0001";
+@import "menu/MS_MENU_XDSHOP_0002";
+@import "menu/MS_MENU_BANHATGIONG_0001";
+@import "menu/MS_MENU_BANHATGIONG_0002";
+
+/*cart*/
+@import "cart/MS_CART_0001";
+@import "cart/MS_CART_0002";
+@import "cart/MS_CART_0003";
+@import "cart/MS_CART_0004";
+@import "cart/MS_CART_0005";
+@import "cart/MS_CART_0006";
+@import "cart/MS_CART_0007";
+@import "cart/MS_CART_0008";
+@import "cart/MS_CART_ARIOTOYS_0001.scss";
+@import "cart/MS_CART_ARIOTOYS_0002.scss";
+@import "cart/MS_CART_ARIOTOYS_0004.scss";
+@import "cart/MS_CART_ARIOTOYS_0005.scss";
+@import "cart/MS_CART_ARIOTOYS_0006.scss";
+@import "cart/MS_CART_ARIOTOYS_0007.scss";
+@import "cart/MS_CART_LANDINGPAGE_COFFEE_0001";
+@import "cart/MS_CART_LANDINGPAGE_COFFEE_0002";
+@import "cart/MS_CART_NAUSTORE_0001";
+@import "cart/MS_CART_NAUSTORE_0002";
+@import "cart/MS_CART_NAUSTORE_0003";
+@import "cart/MS_CART_NAUSTORE_0004";
+@import "cart/MS_CART_REM_0001";
+@import "cart/MS_CART_REM_0002";
+@import "cart/MS_CART_REM_0003";
+@import "cart/MS_CART_REM_0004";
+@import "cart/MS_CART_ORGANIC_0001";
+@import "cart/MS_CART_ORGANIC_0002";
+@import "cart/MS_CART_VYHOFOCO_0003";
+@import "cart/MS_CART_VYHOFOCO_0007";
+@import "cart/MS_CART_XDSHOP_0001";
+@import "cart/MS_CART_XDSHOP_0003";
+@import "cart/MS_CART_GOSHI_0002";
+@import "cart/MS_CART_GOSHI_0003";
+@import "cart/MS_CART_GOSHI_0004";
+
+/*language*/
+@import "language/MS_LANGUAGE_0001";
+
+/*FOOTER*/
+@import "footer/MS_FOOTER_0001";
+@import "footer/MS_FOOTER_ARIOTOYS_0001";
+@import "footer/MS_FOOTER_LANDINGPAGE1_0001";
+@import "footer/MS_FOOTER_REMMANH_0001";
+@import "footer/MS_FOOTER_LANDINGPAGE_COFFEE_0001";
+@import "footer/MS_FOOTER_LDP_DIAMOND_0001";
+@import "footer/MS_FOOTER_NAUSTORE_0001";
+@import "footer/MS_FOOTER_LDP_DIAMOND_0001";
+@import "footer/MS_FOOTER_REM_0001";
+@import "footer/MS_FOOTER_LDPVNHOMES_0001";
+@import "footer/MS_FOOTER_ORGANIC_0001";
+@import "footer/MS_FOOTER_DATXANHMB_0001";
+@import "footer/MS_FOOTER_VYHOFOCO_0001";
+@import "footer/MS_FOOTER_XDSHOP_0001";
+
+/*OTHER*/
+@import "others/MS_OTHER_0001";
+@import "others/MS_OTHER_0002";
+@import "others/MS_OTHER_0003";
+@import "others/MS_OTHER_LANDINGPAGE1_0001";
+@import "others/MS_OTHER_LANDINGPAGE1_0002";
+@import "others/MS_OTHER_REMMANH_0001";
+@import "others/MS_OTHER_LANDINGPAGE_COFFEE_0001";
+@import "others/MS_OTHER_LANDINGPAGE_COFFEE_0002";
+@import "others/MS_OTHER_LDP_DIAMOND_0001";
+@import "others/MS_OTHER_LDP_DIAMOND_0002";
+@import "others/MS_OTHER_LDPVNHOMES_0001";
+@import "others/MS_OTHER_DATXANHMB_0002";
+@import "others/MS_OTHER_DATXANHMB_0003";
+@import "others/MS_OTHER_DATXANHMB_0004";
+@import "others/MS_OTHER_VYHOFOCO_0002";
+@import "others/MS_OTHER_VYHOFOCO_0003";
+
+/*INTRODUCE*/
+@import "introduce/MS_INTRODUCE_0001";
+@import "introduce/MS_INTRODUCE_0002";
+@import "introduce/MS_INTRODUCE_ARIOTOYS_0001";
+@import "introduce/MS_INTRODUCELANDINGPAGE1_0001";
+@import "introduce/MS_INTRODUCE_LDP_DIAMOND_0001";
+@import "introduce/MS_INTRODUCE_NAUSTORE_0001";
+@import "introduce/MS_INTRODUCE_REM_0001";
+@import "introduce/MS_INTRODUCE_LDPVNHOMES_0001";
+@import "introduce/MS_INTRODUCE_LDPVNHOMES_0002";
+@import "introduce/MS_INTRODUCE_ORGANIC_0001";
+@import "introduce/MS_INTRODUCE_DATXANHMB_0003";
+@import "introduce/MS_INTRODUCE_VYHOFOCO_0001";
+@import "introduce/MS_INTRODUCE_VYHOFOCO_0002";
+@import "introduce/MS_INTRODUCE_VYHOFOCO_0003";
+
+/*BREADCRUM*/
+@import "breadcrums/MS_BEADCRUM_0001";
+@import "breadcrums/MS_BREAKCRUMS_ARIOTOYS_0001";
+@import "breadcrums/MS_BREADCRUMS_NAUSTORE_0001";
+@import "breadcrums/MS_BREAKCRUMS_DATXANHMB_0001";
+
+/*CUSTOMMER*/
+@import "customer/MS_CUSTOMER_0001";
+@import "customer/MS_CUSTOMER_REMMANH_0001";
+@import "customer/MS_CUSTOMER_LANDINGPAGE_COFFEE_0001";
+@import "customer/MS_CUSTOMER_LANDINGPAGE_COFFEE_0002";
+@import "customer/MS_CUSTOMER_ORGANIC_0001";
+@import "customer/MS_CUSTOMER_DATXANHMB_0001";
+@import "customer/MS_CUSTOMER_DATXANHMB_0002";
+@import "customer/MS_CUSTOMER_VYHOFOCO_0001";
+@import "customer/MS_CUSTOMER_VYHOFOCO_0002";
+
+/*SERVICES*/
+@import "service/MS_SERVICE_0001";
+@import "service/MS_SERVICE_0002";
+@import "service/MS_SERVICE_VYHOFOCO_0004";
+
+/*TEAM*/
+@import "team/MS_TEAM_0001";
+@import "team/MS_TEAM_LANDINGPAGE1_0001";
+@import "team/MS_TEAM_LANDINGPAGE1_0002";
+@import "team/MS_TEAM_LDP_DIAMOND_0001";
+@import "team/MS_TEAM_LDP_DIAMOND_0002";
+
+/*VIDEO*/
+@import "video/MS_VIDEO_0001";
+@import "video/MS_VIDEO_LANDINGPAGE1";
+@import "video/MS_VIDEO_LDP_DIAMOND_0001";
+@import "video/MS_VIDEO_DATXANHMB_0001";
+
+/*sidebar*/
+@import "sideBar/MS_SIDEBAR_0001";
+@import "sideBar/MS_SIDEBAR_0002";
+@import "sideBar/MS_SIDEBAR_0003";
+@import "sideBar/MS_SIDEBAR_0004";
+@import "sideBar/MS_SIDEBAR_0005";
+@import "sideBar/MS_SIDEBAR_0006";
+@import "sideBar/MS_SIDEBAR_0007";
+@import "sideBar/MS_SIDEBAR_0008";
+@import "sideBar/MS_SIDEBAR_0011";
+@import "sideBar/MS_SIDEBAR_0012";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0001";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0002";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0003";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0004";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0005";
+@import "sideBar/MS_SIDEBAR_ARIOTOYS_0006";
+@import "sideBar/MS_SIDEBAR_NAUSTORE_0001";
+@import "sideBar/MS_SIDEBAR_NAUSTORE_0002";
+@import "sideBar/MS_SIDEBAR_NAUSTORE_0003";
+@import "sideBar/MS_SIDEBAR_NAUSTORE_0005";
+@import "sideBar/MS_SIDEBAR_NAUSTORE_0006";
+@import "sideBar/MS_SIDEBAR_REM_0001";
+@import "sideBar/MS_SIDEBAR_REM_0002";
+@import "sideBar/MS_SIDEBAR_REM_0003";
+@import "sideBar/MS_SIDEBAR_REM_0005";
+@import "sideBar/MS_SIDEBAR_REM_0006";
+@import "sideBar/MS_SIDEBAR_VNHOMES_0001";
+@import "sideBar/MS_SIDEBAR_LDPVNHOMES_0004";
+@import "sideBar/MS_SIDEBAR_LDPVINHOMES_0002";
+@import "sideBar/MS_SIDEBAR_LDPVINHOMES_0003";
+@import "sideBar/MS_SIDEBAR_ORGANIC_0001";
+@import "sideBar/MS_SIDEBAR_ORGANIC_0002";
+@import "sideBar/MS_SIDEBAR_ORGANIC_0003";
+@import "sideBar/MS_SIDEBAR_ORGANIC_0005";
+@import "sideBar/MS_SIDEBAR_ORGANIC_0006";
+@import "sideBar/MS_SIDEBAR_DATXANHMB_0007";
+@import "sideBar/MS_SIDEBAR_DATXANHMB_0009";
+@import "sideBar/MS_SIDEBAR_BDSHN_0002";
+@import "sideBar/MS_SIDEBAR_BDSHN_0003";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0002";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0004";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0005";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0006";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0003";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0009";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0010";
+@import "sideBar/MS_SIDEBAR_VYHOFOCO_0011";
+@import "sideBar/MS_SIDEBAR_BANHATGIONG_0008";
+
+/*NEWS*/
+@import "news/MS_NEW_0001";
+@import "news/MS_NEW_0002";
+@import "news/MS_NEWS_0003";
+@import "news/MS_NEWS_0004";
+@import "news/MS_NEWS_0005";
+@import "news/MS_NEWS_0006";
+@import "news/MS_NEWS_ARIOTOYS_0001";
+@import "news/MS_NEWS_ARIOTOYS_0002";
+@import "news/MS_NEWS_NAUSTORE_0001";
+@import "news/MS_NEWS_NAUSTORE_0002";
+@import "news/MS_NEWS_NAUSTORE_0003";
+@import "news/MS_NEWS_REM_0001";
+@import "news/MS_NEWS_REM_0002";
+@import "news/MS_NEWS_REM_0003";
+@import "news/MS_NEWS_LDPVNHOMES_0001";
+@import "news/MS_NEWS_LDPVNHOMES_0002";
+@import "news/MS_NEWS_LDPVNHOMES_0003";
+@import "news/MS_NEWS_ORGANIC_0001";
+@import "news/MS_NEWS_ORGANIC_0002";
+@import "news/MS_NEWS_ORGANIC_0003";
+@import "news/MS_NEWS_ORGANIC_0004";
+@import "news/MS_NEWS_ORGANIC_0005";
+@import "news/MS_NEWS_ORGANIC_0006";
+@import "news/MS_NEWS_DATXANHMB_0001";
+@import "news/MS_NEWS_DATXANHMB_0002";
+@import "news/MS_NEWS_DATXANHMB_0003";
+@import "news/MS_NEWS_DATXANHMB_0004";
+@import "news/MS_NEWS_DATXANHMB_0005";
+@import "news/MS_NEWS_DATXANHMB_0006";
+@import "news/MS_NEWS_DATXANHMB_0007";
+@import "news/MS_NEWS_DATXANHMB_0008";
+@import "news/MS_NEWS_DATXANHMB_0009";
+@import "news/MS_NEWS_DATXANHMB_0010";
+@import "news/MS_NEWS_DATXANHMB_0011";
+@import "news/MS_NEWS_DATXANHMB_0012";
+@import "news/MS_NEWS_DATXANHMB_0013";
+@import "news/MS_NEWS_DATXANHMB_0014";
+@import "news/MS_NEWS_DATXANHMB_0015";
+@import "news/MS_NEWS_DATXANHMB_0016";
+@import "news/MS_NEWS_BDSHN_0001";
+@import "news/MS_NEWS_BDSHN_0002";
+@import "news/MS_NEWS_VYHOFOCO_0001";
+@import "news/MS_NEWS_VYHOFOCO_0004";
+@import "news/MS_NEWS_VYHOFOCO_0005";
+@import "news/MS_NEWS_VYHOFOCO_0006";
+@import "news/MS_NEWS_VYHOFOCO_0007";
+
+/*PAGINATION*/
+@import "pagination/MS_PAGINATION_0001";
+
+/*PRODUCT*/
+@import "product/MS_PRODUCT_0001";
+@import "product/MS_PRODUCT_0002";
+@import "product/MS_PRODUCT_0003";
+@import "product/MS_PRODUCT_0004";
+@import "product/MS_PRODUCT_0005";
+@import "product/MS_PRODUCT_0006";
+@import "product/MS_PRODUCT_0007";
+@import "product/MS_PRODUCT_0008";
+@import "product/MS_PRODUCT_0009";
+@import "product/MS_PRODUCT_0010";
+@import "product/MS_PRODUCT_0011";
+@import "product/MS_PRODUCT_0012";
+@import "product/MS_PRODUCT_0013";
+@import "product/MS_PRODUCT_0014";
+@import "product/MS_PRODUCT_0015";
+@import "product/MS_PRODUCT_0016";
+@import "product/MS_PRODUCT_0017";
+@import "product/MS_PRODUCT_0018";
+@import "product/MS_PRODUCT_0019";
+@import "product/MS_PRODUCT_0020";
+@import "product/MS_PRODUCT_0021";
+@import "product/MS_PRODUCT_0022";
+@import "product/MS_PRODUCT_0023";
+@import "product/MS_PRODUCT_ARIOTOYS_0001";
+@import "product/MS_PRODUCT_ARIOTOYS_0002";
+@import "product/MS_PRODUCT_ARIOTOYS_0003";
+@import "product/MS_PRODUCT_ARIOTOYS_0004";
+@import "product/MS_PRODUCT_ARIOTOYS_0005";
+@import "product/MS_PRODUCT_ARIOTOYS_0006";
+@import "product/MS_PRODUCT_ARIOTOYS_0007";
+@import "product/MS_PRODUCT_ARIOTOYS_0008";
+@import "product/MS_PRODUCT_REMMANH_0001";
+@import "product/MS_PRODUCT_LDP_DIAMOND_0001";
+@import "product/MS_PRODUCT_NAUSTORE_0001";
+@import "product/MS_PRODUCT_NAUSTORE_0002";
+@import "product/MS_PRODUCT_NAUSTORE_0003";
+@import "product/MS_PRODUCT_NAUSTORE_0004";
+@import "product/MS_PRODUCT_NAUSTORE_0005";
+@import "product/MS_PRODUCT_NAUSTORE_0006";
+@import "product/MS_PRODUCT_NAUSTORE_0007";
+@import "product/MS_PRODUCT_REM_0001";
+@import "product/MS_PRODUCT_REM_0002";
+@import "product/MS_PRODUCT_REM_0003";
+@import "product/MS_PRODUCT_REM_0004";
+@import "product/MS_PRODUCT_REM_0005";
+@import "product/MS_PRODUCT_REM_0006";
+@import "product/MS_PRODUCT_REM_0007";
+@import "product/MS_PRODUCT_LDPVNHOMES_0001";
+@import "product/MS_PRODUCT_LDPVNHOMES_0002";
+@import "product/MS_PRODUCT_LDPVNHOMES_0003";
+@import "product/MS_PRODUCT_LDPVNHOMES_0004";
+@import "product/MS_PRODUCT_ORGANIC_0001";
+@import "product/MS_PRODUCT_ORGANIC_0002";
+@import "product/MS_PRODUCT_ORGANIC_0003";
+@import "product/MS_PRODUCT_ORGANIC_0004";
+@import "product/MS_PRODUCT_ORGANIC_0005";
+@import "product/MS_PRODUCT_DATXANHMB_0001";
+@import "product/MS_PRODUCT_DATXANHMB_0002";
+@import "product/MS_PRODUCT_DATXANHMB_0003";
+@import "product/MS_PRODUCT_VYHOFOCO_0001";
+@import "product/MS_PRODUCT_VYHOFOCO_0002";
+@import "product/MS_PRODUCT_VYHOFOCO_0003";
+@import "product/MS_PRODUCT_VYHOFOCO_0004";
+@import "product/MS_PRODUCT_VYHOFOCO_0005";
+@import "product/MS_PRODUCT_VYHOFOCO_0006";
+@import "product/MS_PRODUCT_VYHOFOCO_0007";
+@import "product/MS_PRODUCT_VYHOFOCO_0008";
+@import "product/MS_PRODUCT_GOSHI_0001";
+@import "product/MS_PRODUCT_GOSHI_0002";
+@import "product/MS_PRODUCT_GOSHI_0003";
+@import "product/MS_PRODUCT_GOSHI_0004";
+
+
+/*CONTACT*/
+@import "contact/MS_CONTACT_0001";
+@import "contact/MS_CONTACT_0002";
+@import "contact/MS_CONTACT_0004";
+@import "contact/MS_CONTACT_0003";
+@import "contact/MS_CONTACT_0005";
+@import "contact/MS_CONTACT_0006";
+@import "contact/MS_CONTACT_ARIOTOYS_0001";
+@import "contact/MS_CONTACT_LENDINGPAGE1_0001";
+@import "contact/MS_CONTACT_LENDINGPAGE1_0002";
+@import "contact/MS_CONTACT_LENDINGPAGE1_0003";
+@import "contact/MS_CONTACT_LANDINGPAGE1_0004";
+@import "contact/MS_CONTACT_REMMANH_0001";
+@import "contact/MS_CONTACT_LDP_DIAMOND_0001";
+@import "contact/MS_CONTACT_LDP_DIAMOND_0002";
+@import "contact/MS_CONTACT_LDP_DIAMOND_0003";
+@import "contact/MS_CONTACT_LDP_DIAMOND_0004";
+@import "contact/MS_CONTACT_NAUSTORE_0002";
+@import "contact/MS_CONTACT_NAUSTORE_0004";
+@import "contact/MS_CONTACT_REM_0002";
+@import "contact/MS_CONTACT_REM_0004";
+@import "contact/MS_CONTACT_LDPVNHOMES_0001";
+@import "contact/MS_CONTACT_LDPVNHOMES_0002";
+@import "contact/MS_CONTACT_ORGANIC_0002";
+@import "contact/MS_CONTACT_DATXANHMB_0001";
+@import "contact/MS_CONTACT_DATXANHMB_0002";
+@import "contact/MS_CONTACT_DATXANHMB_0003";
+@import "contact/MS_CONTACT_DATXANHMB_0004";
+@import "contact/MS_CONTACT_DATXANHMB_0005";
+@import "contact/MS_CONTACT_VYHOFOCO_0001";
+@import "contact/MS_CONTACT_VYHOFOCO_0002";
+@import "contact/MS_CONTACT_XDSHOP_0001";
+@import "contact/MS_CONTACT_XDSHOP_0002";
+
+/*SEARCH*/
+@import "search/MS_SEARCH_0001";
+@import "search/MS_SEARCH_0002";
+@import "search/MS_SEARCH_0003";
+@import "search/MS_SEARCH_0004";
+@import "search/MS_SEARCH_0005";
+@import "search/MS_SEARCH_ARIOTOYS_0001";
+@import "search/MS_SEARCH_ARIOTOYS_0002";
+@import "search/MS_SEARCH_NAUSTORE_0001";
+@import "search/MS_SEARCH_NAUSTORE_0002";
+@import "search/MS_SEARCH_REM_0001";
+@import "search/MS_SEARCH_REM_0002";
+@import "search/MS_SEARCH_ORGANIC_0001";
+@import "search/MS_SEARCH_DATXANHMB_0003";
+@import "search/MS_SEARCH_VYHOFOCO_0003";
+
+/*SOCIAL*/
+@import "social/MS_SOCIAL_0001";
+@import "social/MS_SOCIAL_ARIOTOYS_0001";
+@import "social/MS_SOCIAL_ARIOTOYS_0002";
+@import "social/MS_SOCIAL_LANDINGPAGE1_0001";
+@import "social/MS_SOCIAL_LDP_DIAMOND_0001";
+@import "social/MS_SOCIAL_NAUSTORE_0001";
+@import "social/MS_SOCIAL_NAUSTORE_0002";
+@import "social/MS_SOCIAL_ORGANIC_0001";
+@import "social/MS_SOCIAL_ORGANIC_0002";
+@import "social/MS_SOCIAL_VYHOFOCO_0001";
+@import "social/MS_SOCIAL_VYHOFOCO_0002";
+@import "social/MS_SOCIAL_XDSHOP_0001";
+@import "social/MS_SOCIAL_XDSHOP_0002";
+
+/*EMAIL;*/
+@import "email/MS_EMAIL_0001";
+@import "email/MS_EMAIL_ARIOTOYS_0001";
+@import "email/MS_EMAIL_LANDINGPAGE1_0001";
+@import "email/MS_EMIAL_LANDINGPAGE_COFFEE_0001";
+@import "email/MS_EMAIL_LDP_DIAMOND_0001";
+@import "email/MS_EMAIL_NAUSTORE_0001";
+@import "email/MS_EMAIL_NAUSTORE_0003";
+@import "email/MS_EMAIL_REM_0001";
+@import "email/MS_EMAIL_REM_0003";
+@import "email/MS_EMAIL_ORGANIC_0001";
+@import "email/MS_EMAIL_ORGANIC_0003";
+@import "email/MS_EMAIL_DATXANHMB_0006";
+@import "email/MS_EMAIL_VYHOFOCO_0002";
+@import "email/MS_EMAIL_VYHOFOCO_0003";
+@import "email/MS_EMAIL_VYHOFOCO_0004";
+@import "email/MS_EMAIL_XDSHOP_0004";
+@import "email/MS_EMAIL_XDSHOP_0005";
+
+/*SLIDESHOW*/
+@import "slideShow/MS_SLIDESHOW_0001";
+@import "slideShow/MS_SLIDESHOW_ARIOTOYS_0001";
+@import "slideShow/MS_SLIDESHOW_REMMANH_0001";
+@import "slideShow/MS_SLIDESHOW_REMMANH_0001";
+
+/*REGISTER*/
+@import "register/MS_REGISTER_CMS_0001";
+@import "register/MS_REGISTER_CMS_0002";
+@import "register/MS_REGISTER_CMS_0003";
+
+/*Banner*/
+@import "banner/MS_BANNER_ARIOTOYS_0001";
+@import "banner/MS_BANNER_ARIOTOYS_0002";
+@import "banner/MS_BANNER_ARIOTOYS_0003";
+@import "banner/MS_BANNER_ARIOTOYS_0003_1";
+@import "banner/MS_BANNER_LANDINGPAGE1_0001";
+@import "banner/MS_BANNER_LDP_DIAMOND_0001";
+@import "banner/MS_BANNER_LDP_DIAMOND_0002";
+@import "banner/MS_BANNER_LDP_DIAMOND_0003";
+@import "banner/MS_BANNER_NAUSTORE_0001";
+@import "banner/MS_BANNER_NAUSTORE_0002";
+@import "banner/MS_BANNER_NAUSTORE_0003";
+@import "banner/MS_BANNER_NAUSTORE_0004";
+@import "banner/MS_BANNER_REM_0001";
+@import "banner/MS_BANNER_REM_0002";
+@import "banner/MS_BANNER_LDPVNHOMES_0001";
+@import "banner/MS_BANNER_LDPVNHOMES_0002";
+@import "banner/MS_BANNER_LDPVNHOMES_0003";
+@import "banner/MS_BANNER_DATXANHMB_0001";
+@import "banner/MS_BANNER_DATXANHMB_0002";
+@import "banner/MS_BANNER_DATXANHMB_0003";
+@import "banner/MS_BANNER_BDSHN_0002";
+@import "banner/MS_BANNER_VYHOFOCO_0001";
+@import "banner/MS_BANNER_VYHOFOCO_0002";
+@import "banner/MS_BANNER_VYHOFOCO_0003";
+@import "banner/MS_BANNER_VYHOFOCO_0004";
+
+/*CHARACTERISTICS*/
+@import "characteristics/MS_CHARACTERISTICS_ARIOTOYS_0001";
+@import "characteristics/MS_CHARACTERISTICS_LANDINGPAGE1_0001";
+@import "characteristics/MS_CHARACTERISTICS_LANDINGPAGE1_0002";
+@import "characteristics/MS_CHARACTERISTICS_LANDINGPAGE1_0003";
+@import "characteristics/MS_CHARACTERISTICS_LANDINGPAGE1_0004";
+@import "characteristics/MS_CHARACTERISTICS_REMMANH_0001";
+@import "characteristics/MS_CHARACTERISTICS_REMMANH_0002";
+@import "characteristics/MS_CHARACTERISTICS_LANDINGPAGE_COFFEE_0001";
+@import "characteristics/MS_CHARACTERISTICS_LDP_DIAMOND_0001";
+@import "characteristics/MS_CHARACTERISTICS_LDP_DIAMOND_0002";
+@import "characteristics/MS_CHARACTERISTICS_REM_0001";
+@import "characteristics/MS_CHARACTERISTICS_DATXANHMB_0001";
+@import "characteristics/MS_CHARACTERISTICS_DATXANHMB_0002";
+@import "characteristics/MS_CHARACTERISTICS_XDSHOP_0001";
+
+/*page*/
+@import "page/MS_PAGE_ARIOTOYS_0001";
+@import "page/MS_PAGE_ARIOTOYS_0002";
+@import "page/MS_PAGE_ARIOTOYS_0003";
+@import "page/MS_PAGE_VYHOFOCO_0001";
+@import "page/MS_PAGE_VYHOFOCO_0003";
+@import "page/MS_PAGE_VYHOFOCO_0004";
+
+/*PARTNER*/
+@import "partner/MS_PARTNER_ARIOTOYS_0001";
+@import "partner/MS_PARTNER_DATXANHMB_0001";
+@import "partner/MS_PARTNER_DATXANHMB_0002";
+
+/*PRICELIST*/
+@import "priceList/MS_PRICELIST_LANDINGPAGE1_0001";
+@import "priceList/MS_PRICELIST_LANDINGPAGE1_0002";
+@import "priceList/MS_PRICELIST_LDP_DIAMOND_0001";
+@import "priceList/MS_PRICELIST_LDP_DIAMOND_0002";
+
+/*QUESTITION*/
+@import "questionAndAnswer/MS_QUESTIONANDANSWER_LANDINGPAGE1_0001";
+@import "questionAndAnswer/MS_QUESTIONANDANSWER_REMMANH_0001";
+@import "questionAndAnswer/MS_QUESTIONANDANSWER_LDP_DIAMOND_0001";
+
+/*PROJECT*/
+@import "project/MS_PROJECT_REMMANH_0001";
+@import "project/MS_PROJECT_LDPVNHOMES_0001";
+@import "project/MS_PROJECT_LDPVNHOMES_0002";
+@import "project/MS_PROJECT_BDSHN_0001";
+@import "project/MS_PROJECT_BDSHN_0002";
+@import "project/MS_PROJECT_BDSHN_0003";

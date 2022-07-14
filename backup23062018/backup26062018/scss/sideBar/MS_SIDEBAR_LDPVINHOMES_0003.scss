@@ -1,0 +1,75 @@
+.gb-recenpost-sidebar-ldpvinhome{
+  margin-bottom: 30px;
+  .widget-title-sidebar-ldpvinhome{
+    font-size: 20px;
+    color: #fff;
+    background: #469ae9;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .gb-blog-left-recent-posts_ldpvinhome{
+    margin-top: 20px;
+    ul{
+      padding: 0;
+      li{
+        list-style-type: none;
+        clear: both;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 1px solid #eee;
+        &:first-child{
+          padding-top: 0;
+          border:none;
+        }
+        .gb-item-recent-posts_ldpvinhome{
+          .gb-item-recent-posts_ldpvinhome-img{
+            float: left;
+            margin-right: 20px;
+            position: relative;
+            img{
+              width: 70px;
+              height:70px;
+              border-radius: 3px;
+            }
+          }
+          .gb-item-recent-posts_ldpvinhome-text{
+            padding-left: 90px;
+            h2{
+              margin: 0;
+              a{
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.57;
+                text-align: left;
+                color: #222222;
+                overflow: hidden;
+                display: block;
+                margin-bottom: 10px;
+                &:hover{
+                  text-decoration: none;
+                  color: #469ae9;
+                }
+              }
+            }
+            .gb-item-recent-post-time_ldpvinhome{
+              span{
+                .fa{
+                  font-family: 'FontAwesome';
+                  font-size: 14px;
+                  text-align: left;
+                  color: #469ae9;
+                  margin-right: 10px;
+                }
+                font-size: 13px;
+                line-height: 2;
+                text-align: left;
+                color: #aeaeae;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

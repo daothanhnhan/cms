@@ -1,0 +1,137 @@
+/*TOP HEADER*/
+.gb-content{
+  overflow: hidden;
+}
+.is-sticky{
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+  @media screen and (max-width: 991px) {
+    visibility:  hidden;
+  }
+}
+.sticky-wrapper{
+  width: 100%;
+  position: relative;
+  @media screen and (max-width: 991px) {
+    position: relative !important;
+  }
+}
+.gb-header_xdshop{
+  background: $color-white;
+  .gb-header_xdshop-topbar{
+    .logo_xdshop{
+      width: 200px;
+      padding: 8px 0;
+      margin: 0 auto;
+      float: left;
+      img{
+        width: 100%;
+        height:  auto;
+      }
+    }
+    .gb-header_xdshop-topbar-right{
+      width: calc(100% - 200px);
+      float: left;
+      padding: 27px 0;
+      text-align: right;
+      @media screen and (max-width: 991px) {
+        display:  none;
+      }
+      ul{
+        li{
+          display: inline-block;
+          font-size: 14px;
+          font-weight: bold;
+          margin-right: 20px;
+          line-height: 30px;
+          &.header-topbar-email_xdshop{
+            color: #09c;
+            i{
+              font-size: 18px;
+            }
+          }
+          &.header-topbar-login_xdshop{
+            a{
+              color: $color-1;
+              i{
+                font-size: 18px;
+              }
+            }
+          }
+          &.header-topbar-register_xdshop{
+            a{
+              color: $color-1;
+              i{
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.gb-header-bottom_xdshop{
+  background: $color-main-xdshop;
+}
+
+//HEADER TOPBAR*/
+.gb-header_xdshop-topbar{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  .gb-top-header-left_xdshop{
+    padding: 15px 0;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    ul{
+      li{
+        display:  block;
+        font-size: 13px;
+        color: $color-grey;
+        margin-bottom: 10px;
+        a{
+          display:  inline-block;
+          font-size: 13px;
+          color: $color-grey;
+          transition:  all 0.3s;
+          &:hover{
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+  .gb-top-header-right_xdshop{
+    padding: 15px 0;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    ul{
+      text-align: right;
+      li{
+        display:  inline-block;
+        margin-bottom: 10px;
+        a{
+          display:  block;
+          font-size: 13px;
+          color: $color-grey;
+          transition:  all 0.3s;
+          &:hover{
+            color: $color-white;
+          }
+          i{
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.gb-header_xdshop-cart_xdshop{
+  color: $color-white;
+  line-height: 52px;
+  text-align: center;
+  border-left: 5px solid $color-white;
+}

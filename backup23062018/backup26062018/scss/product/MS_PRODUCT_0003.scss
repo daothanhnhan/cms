@@ -1,0 +1,143 @@
+.gb-sanpham-cmslienquan-cms{
+  margin-top: 50px;
+  .title{
+    h3{
+      font-size: 24px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: center;
+      color: #333333;
+      text-transform: uppercase;
+      padding-bottom: 30px;
+    }
+  }
+}
+.uni-best-seller{
+  //background: #ffffff;
+  margin-top: 60px;
+  .vk-newlist-details{
+    padding-top: 30px;
+  }
+  h4{
+    margin-bottom: 0;
+    a{
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      text-align: left;
+      color: #22292d;
+      text-transform:  capitalize;
+      transition: all 0.5s;
+      &:hover{
+        color: #fcae1d;
+      }
+    }
+  }
+}
+
+.vk-book-details{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0;
+  &:last-child{
+    border-bottom: none;
+  }
+
+  h4{
+    a{
+      display: block;
+      font-style: normal;
+      font-stretch: normal;
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      text-transform:  capitalize;
+      transition: all 0.5s;
+      &:hover{
+        color: #fcae1d;
+      }
+    }
+  }
+
+  .vk-best-seller-img{
+    float: left;
+    border: 1px solid #E0E0E0;
+    img{
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+    }
+  }
+  .vk-best-seller-info{
+    padding-left: 80px;
+    ul{
+      margin: 0;
+      padding: 0;
+      display:  flex;
+      li{
+        float:  left;
+        i{
+          font-family: FontAwesome;
+          font-size: 12px;
+          line-height: 2;
+          letter-spacing: 1.2px;
+          color: #fcae1d;
+        }
+      }
+    }
+    p{
+      color: #666;
+      margin: 0;
+    }
+
+    .prices-cms{
+      .percent-sale{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        background: #c63829;
+        padding: 0 5px;
+      }
+      .price-old-sale{
+        clear: both;
+      }
+      .price-old{
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #666666;
+        text-decoration: line-through;
+        margin-right: 20px;
+      }
+      .price-sale{
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #666666;
+      }
+    }
+  }
+}

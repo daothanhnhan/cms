@@ -1,0 +1,120 @@
+.gb-huydonhang-cms{
+  .gb-huydonhang-cms-body-cms{
+    padding: 80px 0;
+    h2{
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left;
+      color: #404040;
+      text-transform: uppercase;
+    }
+  }
+  .label-step-cms{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #404040;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+
+  .gb-huydonhang-cms-step-1-cms{
+    .gb-huydonhang-cms-step-1-cms-info-sanpham-cms{
+      background: #efefef;
+      padding: 30px 10px;
+      margin: 30px 0;
+    }
+    .gb-huydonhang-cms-step-1-cms-info-sanpham-cms-left-cms{
+      .item-checkbox-cms{
+        float: left;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+      .item-sanpham-info-cms{
+        .item-sanpham-info-cms-img-cms{
+          width: 60px;
+          float: left;
+          margin-right: 20px;
+        }
+        h2{
+          a{
+            display: block;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.71;
+            color: #808080;
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+    .gb-huydonhang-cms-step-1-cms-info-sanpham-cms-right{
+      margin-top: 10px;
+      select{
+        width: 100%;
+        height: 45px;
+      }
+    }
+    .gb-ghichu-cms{
+      label{
+        display: block;
+        font-size: 14px;
+        text-align: left;
+        line-height: 1.71;
+        font-weight: 600;
+        color: #404040;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      textarea{
+        width: 100%;
+        height: 200px;
+      }
+    }
+  }
+
+  .gb-huydonhang-cms-step-2-cms{
+    .gb-huydonhang-cms-step-2-cms-text{
+      background: #f4f4f4;
+      padding: 30px;
+      margin: 30px 0;
+      p{
+        margin-bottom: 20px;
+      }
+      ul{
+        li{
+          span{
+            color: #404040;
+            font-weight: 600;
+            display:  block;
+            float: left;
+            margin-top: 5px;
+          }
+          p{
+            padding-left: 20px;
+            line-height: 1.71;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .gb-huydonhang-cms-step-2-cms-check{
+      margin: 20px 0;
+    }
+  }
+
+  .btn-gb-huydon{
+    background: #f0ad4e;
+    border: 1px solid #f0ad4e;
+    min-width: 200px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition:  all 0.5s;
+    &:hover{
+      color: #f0ad4e;
+      background: transparent;
+    }
+  }
+}

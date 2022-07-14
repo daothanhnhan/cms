@@ -1,0 +1,46 @@
+.box_search_pc_ariotoys{
+  position: relative;
+  padding:  0 15px;
+}
+
+.cover_box_search_pc_ariotoys{
+  width: 100%;
+  position: relative;
+}
+
+
+.box_text_search_ariotoys button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #227688;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 40px;
+  text-align: center;
+}
+
+.box_text_search_ariotoys button i{
+  float: none;
+}
+
+.box_text_search_ariotoys{
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.box_text_search_ariotoys input{
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  padding-right: 50px;
+  height: 40px;
+  background-color: #3f3c3c;
+  border: none;
+  color: #a1a1a1;
+}

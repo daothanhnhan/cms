@@ -1,0 +1,23 @@
+#Header-HeaderTop_ariotoys3_ariotoys{
+  background-color: #227688;
+  border-bottom: 2px solid #e79b29;
+}
+.list_main_menu{
+  li{
+    display: inline-block;
+    a{
+      display: block;
+      font-size: 14px;
+      color: $color-white;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 50px;
+      padding: 0 22px;
+      transition:  all 0.5s;
+      &:hover{
+        color: #ffc000;
+        background-color: #d4491b;
+      }
+    }
+  }
+}

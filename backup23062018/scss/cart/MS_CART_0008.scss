@@ -1,0 +1,31 @@
+.box-add-cms{
+  text-align: center;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  a{
+    display:  block;
+    width: 140px;
+    border: 1px solid #fcae1d;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    border-radius: 3px;
+    background: #fcae1d;
+    text-transform:  uppercase;
+    transition: all 0.5s;
+    @media screen and (max-width: 1199px) and (min-width: 992px){
+      display: block;
+    }
+    &:hover{
+      background: transparent;
+      color: #fcae1d;
+    }
+  }
+}

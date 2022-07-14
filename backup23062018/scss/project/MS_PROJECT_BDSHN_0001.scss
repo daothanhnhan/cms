@@ -1,0 +1,146 @@
+.gb-chitietduan-body_bdshn{
+  .gb-sanpham{
+    padding-bottom: 40px;
+  }
+  .product-item{
+    position: relative;
+    border: 1px solid $color-border;
+    margin-bottom: 30px;
+    .item-img{
+      width: 100%;
+      max-height: 250px;
+      overflow: hidden;
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        height: 220px;
+      }
+      @media screen and (max-width: 991px) {
+        height: auto;
+      }
+      img{
+        width: 100%;
+        height: auto;
+        transition: all 0.5s;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+    .item-text{
+      padding: 10px;
+      h3{
+        a{
+          display: block;
+          text-align: left;
+          color: $color-1;
+          line-height: 1.5;
+          font-size: 14px;
+          font-weight: 600;
+          transition:  all 0.5s;
+          min-height: 40px;
+          &:hover{
+            color: $color-main-bdshn;
+          }
+        }
+      }
+    }
+  }
+
+  .gb-sanpham-cate-left_bdshn{
+    padding-top: 10px;
+    .gb-sanpham-cate-left_bdshn-img{
+      border: 1px solid $color-border;
+      height: 330px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .gb-sanpham-cate-left_bdshn-text{
+      ul{
+        li{
+          font-size: 14px;
+          line-height: 37px;
+          border-bottom: 1px dashed $color-border;
+          span{
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .gb-sanpham-cate-right_bdshn{
+    height: 570px;
+    overflow: scroll;
+    overflow-x: visible;
+    padding-top: 10px;
+    &::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar
+    {
+      width: 10px;
+      background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: $color-main-bdshn;
+      border: 1px solid $color-main-bdshn;
+    }
+    @media screen and (max-width: 767px) {
+      margin-top: 30px;
+    }
+    .item{
+      position: relative;
+      border: 1px solid $color-border;
+      margin-bottom: 10px;
+      height: 98px;
+      transition:  all 0.5s;
+      &:hover{
+        cursor: pointer;
+        .item-price{
+          visibility: visible;
+        }
+      }
+      .item-price{
+        visibility: hidden;
+        transition:  all 0.5s;
+      }
+    }
+  }
+  .sanpham-title_bdshn{
+    h2{
+      font-size: 22px;
+      font-weight: bold;
+      text-align: left;
+      color: #333;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 10px;
+    }
+  }
+  .box_des_bdshn{
+    margin-top: 40px;
+    .title_des_bdshn{
+      display:  block;
+      color: $color-white;
+      background: $color-main-bdshn;
+      text-align: center;
+      padding: 15px 0;
+      text-transform: uppercase;
+    }
+    .content_des_bdshn{
+      border: 1px solid $color-border;
+      padding: 30px 20px;
+      p{
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}

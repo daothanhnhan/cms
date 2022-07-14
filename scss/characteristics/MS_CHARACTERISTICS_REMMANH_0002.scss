@@ -1,0 +1,40 @@
+.gb-quytinhtuvan_remmanh{
+  padding:  50px 0;
+  .gb-quytinhtuvan_remmanh-tile{
+    margin-bottom: 40px;
+    h2{
+      box-sizing: content-box;
+      border: none;
+      color: $color-white;
+      text-overflow: ellipsis;
+      text-shadow: 4px 4px 6px $color-main;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 27px;
+      font-size: 30px;
+    }
+    p{
+      color: $color-white;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+    }
+  }
+  .gb-quytinhtuvan_remmanh-item{
+    p{
+      text-align: center;
+      font-size: 18px;
+      line-height: 22px;
+      color: $color-white;
+      margin-bottom: 10px;
+    }
+    .item-img{
+      width: 250px;
+      margin:  0 auto;
+      margin-bottom: 30px;
+      img{
+        border: 5px solid $color-main;
+      }
+    }
+  }
+}

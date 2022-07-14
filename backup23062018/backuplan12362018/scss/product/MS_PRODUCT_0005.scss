@@ -1,0 +1,41 @@
+.prices-cms{
+  margin-bottom: 10px;
+  .percent-sale{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    background: #c63829;
+    padding: 0 5px;
+  }
+  .price-old-sale{
+    clear: both;
+  }
+  .price-old{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    text-decoration: line-through;
+    margin-right: 20px;
+  }
+  .price-sale{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+  }
+}

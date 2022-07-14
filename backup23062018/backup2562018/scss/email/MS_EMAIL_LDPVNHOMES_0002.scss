@@ -1,0 +1,90 @@
+.gb-nhanuudaingay-2_ldpvinhome{
+  padding-top: 100px;
+  .gb-nhanuudaingay_ldpvinhome-left{
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    .gb-nhanuudaingay_ldpvinhome-left-header{
+      background: $color-main-1-ldpvinhome;
+      font-size: 24px;
+      line-height: 35px;
+      text-align: center;
+      text-transform: uppercase;
+      background: $color-main-1-ldpvinhome;
+      color: $color-white;
+      padding: 15px;
+      border-radius: 3px 3px 0 0;
+    }
+    .gb-nhanuudaingay_ldpvinhome-left-body{
+      background: #fff;
+      padding: 30px 20px;
+      form{
+        label{
+          width: 100%;
+          height: 30px;
+          float: left;
+          line-height: 30px;
+          font-size: 16px;
+        }
+        .form-control{
+          border-radius: 0;
+          height: 40px;
+        }
+      }
+    }
+    .btn-dangkyngay{
+      display: block;
+      margin: 0 auto;
+      border-radius: 60px;
+      text-transform: uppercase;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      border: none;
+      padding: 0 1em;
+      min-width: 254px;
+      transition: all .75s ease;
+      background: #FF4E4E;
+      box-shadow: 0 0 3px 0 #ba0248;
+      font-size: 20px;
+      height: 55px;
+      &:hover{
+        color: #fff;
+        box-shadow: 0 0 3px 3px rgba(0, 0, 0, .1);
+        &:before{
+          -webkit-transform: translate3d(0, 100%, 0);
+          -moz-transform: translate3d(0, 100%, 0);
+          -ms-transform: translate3d(0, 100%, 0);
+          -o-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+        }
+        &:after{
+          -webkit-transform: translate3d(0, -100%, 0);
+          -moz-transform: translate3d(0, -100%, 0);
+          -ms-transform: translate3d(0, -100%, 0);
+          -o-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+      }
+      &:before{
+        background: linear-gradient(to bottom, rgba(208, 0, 69, .1), rgba(208, 0, 69, .5));
+        bottom: 100%;
+      }
+      &:after{
+        background: linear-gradient(to bottom, rgba(208, 0, 69, .5), rgba(208, 0, 69, 1));
+        top: 100%;
+      }
+      &:before, &:after{
+        content: '';
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        -webkit-transition: -webkit-transform 0.25s;
+        transition: transform 0.25s;
+        -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+      }
+    }
+  }
+}

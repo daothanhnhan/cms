@@ -1,0 +1,55 @@
+.gb-nhung-con-so-antuong_ldp_daimond{
+  padding: 80px 0;
+  background: url("../images/bg1.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .title-center{
+    h4{
+      font-size: 18px;
+      color: $color-white;
+      text-align: center;
+      line-height: 26px;
+    }
+    h2{
+      text-align: center;
+      font-size: 24px;
+      color: $color-white;
+      line-height: 26px;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+    .under-line2{
+      background: url(../images/underline2.png) no-repeat;
+      height: 16px;
+      background-position: center center;
+    }
+  }
+  ul{
+    li{
+      &.icons{
+        img{
+          margin:  0 auto;
+          width: 150px;
+        }
+      }
+      &.number{
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+        margin: 15px 0;
+        color: $color-white;
+      }
+      &.text{
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: $color-white;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

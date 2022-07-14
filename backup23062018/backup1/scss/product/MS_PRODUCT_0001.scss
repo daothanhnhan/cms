@@ -1,0 +1,76 @@
+.gb-chitiet_dichvu-cms-sp-cms{
+  margin-top: 60px;
+  .gb-dichvu-cms-title{
+    margin-bottom: 50px;
+  }
+  .gb-chitiet_dichvu-cms-sp-cms-item{
+    margin-bottom: 30px;
+    transition:  all 0.5s;
+    &:hover{
+
+    }
+    .item-img-cms{
+      height: 300px;
+      overflow:hidden;
+      position: relative;
+      display: block;
+      &:hover{
+        img{
+          transform: translateY(-100%);
+        }
+      }
+      a{
+        display: block;
+        img{
+          position: relative;
+          width: 100%;
+          height: auto;
+          top: 100%;
+          transition: 1.5s linear;
+        }
+      }
+    }
+
+    .item-content{
+      text-align: center;
+      padding-top: 20px;
+      h2{
+        a{
+          display: block;
+          font-size: 18px;
+          font-weight: 600;
+          text-align: center;
+          color: #404040;
+          text-transform: uppercase;
+          transition: all 0.5s;
+          &:hover{
+            color: #f0ad4e;
+          }
+        }
+      }
+      .price{
+        margin: 15px 0;
+      }
+      .lienhe{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        background: #f0ad4e;
+        min-width: 200px;
+        padding: 10px;
+      }
+    }
+  }
+}
+.gb-dichvu-cms-title{
+  h1{
+    text-align: center;
+    font-size: 36px;
+    color: #ffb42d;
+    font-weight: 600;
+  }
+}

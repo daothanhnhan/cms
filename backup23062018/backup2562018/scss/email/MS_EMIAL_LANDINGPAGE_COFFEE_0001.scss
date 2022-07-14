@@ -1,0 +1,101 @@
+/*ĐẶT HÀNG*/
+.gb-dathang_ldpgreencoffee{
+  .gb-dathang_ldpgreencoffee-body{
+    //background: url(../images/slide7.jpg) 50% 0 no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    padding-bottom: 40px;
+    @media screen and (max-width: 992px) {
+      overflow: hidden;
+    }
+  }
+  .gb-dathang_ldpgreencoffee-tile{
+    background: url(../images/ribbon.png) 0 0 no-repeat;
+    width: 517px;
+    height: 223px;
+    position: relative;
+    top: -20px;
+    padding-top: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #474747;
+    text-align: center;
+    margin: 0 auto;
+    h2{
+      font-size: 40px;
+    }
+  }
+  .product-img-price_ldpgreencoffee{
+    @media screen and (max-width: 1199px) and (min-width: 992px) {
+      position: relative;
+      left: -80px;
+      bottom: initial;
+    }
+    @media screen and (max-width: 991px) {
+      margin:  0 auto;
+    }
+  }
+  .gb-dathang_ldpgreencoffee-time{
+    text-align: center;
+    padding-top: 50px;
+    h4{
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: normal;
+      text-align: center;
+      font-style: normal;
+      display: block;
+      vertical-align: top;
+      padding: 0 0 12px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  .gb-dathang_ldpgreencoffee-form{
+    form{
+      label{
+        font-size: 16px;
+        color: #f5f6d4;
+        display: block;
+        padding-bottom: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+  .vk-uu-dai-left-time {
+    .countdown-section {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+      margin-left: 0px;
+      @media screen and (max-width: 767px) {
+        margin-right: 20px;
+      }
+      @media screen and (max-width: 313px) {
+        margin-right: 4px;
+      }
+      .count-amount {
+        font-size: 24px;
+        border: 1px solid white;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .countdown-period {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+        line-height: 40px;
+        color: white;
+
+      }
+      &:last-child{
+        margin-right: 0px;
+      }
+    }
+  }
+}

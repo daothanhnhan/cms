@@ -1,0 +1,50 @@
+.gb-vechusngtoi-home_ldp_diamond{
+  padding: 80px 0 40px 0;
+  background: url("../images/backgroundabout.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .gb-vechusngtoi-home-title_ldp_diamond{
+    margin-bottom: 50px;
+    h4{
+      font-size: 25px;
+      color: $color-1;
+      text-align: center;
+    }
+    h3{
+      font-size: 30px;
+      color: $color-main-ldp-daimond;
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+  .gb-vechusngtoi-home_ldp_diamond-right{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .gb-vechusngtoi-home_ldp_diamond-left{
+    padding-top: 100px;
+    h4{
+      font-size: 24px;
+      color: $color-main-ldp-daimond;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  .gb-vechusngtoi-home_ldp_diamond-left-slogan{
+    margin-top: 30px;
+    h3{
+      font-size: 20px;
+      line-height: 30px;
+      color: $color-main-ldp-daimond;
+      span{
+        display: block;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

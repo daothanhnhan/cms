@@ -1,0 +1,118 @@
+.gb-contact_ldpvinhomes{
+  .container{
+    width: 1200px;
+    @media screen and (max-width: 1216px) {
+      width:100%;
+    }
+  }
+
+  .gb-contact_ldpvinhomes-title{
+    text-align: center;
+    margin-top: 80px;
+    h3{
+      font-size: 18px;
+      letter-spacing: 5.4px;
+      text-align: center;
+      color: #f05523;
+      margin: 0px;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      color: #222222;
+      margin: 0px;
+      margin-top: 12px;
+      margin-bottom: 22px;
+      @media screen and (max-width: 767px) {
+        font-size: 36px;
+      }
+    }
+    .gb-contact_ldpvinhomes-border{
+      border-bottom: 2px solid #f05523;
+      width: 80px;
+      margin: 0 auto;
+    }
+  }
+
+  .gb-contact_ldpvinhomes-info{
+    margin: 60px 0;
+    .gb-contact_ldpvinhomes-call{
+      text-align: center;
+      .gb-contact_ldpvinhomes-call-icon{
+        span{
+          font-family: 'themify';
+          font-size: 48px;
+          line-height: 1.25;
+          color: #f05523;
+
+        }
+      }
+      .gb-contact_ldpvinhomes-call-text{
+        h3{
+          font-family: 'Open Sans', serif;
+          font-size: 14px;
+          line-height: 1.86;
+          color: #7b7b7b;
+        }
+      }
+    }
+
+    .gb-contact_ldpvinhomes-email{
+      text-align: center;
+      .gb-contact_ldpvinhomes-email-icon{
+        span{
+          font-family: 'themify';
+          font-size: 48px;
+          line-height: 1.25;
+          color: #f05523;
+
+        }
+      }
+      .gb-contact_ldpvinhomes-email-text{
+        h3{
+          font-size: 14px;
+          line-height: 1.86;
+          color: #7b7b7b;
+        }
+      }
+    }
+
+    .gb-contact_ldpvinhomes-local{
+      text-align: center;
+      .gb-contact_ldpvinhomes-local-icon{
+        span{
+          font-family: 'themify';
+          font-size: 48px;
+          line-height: 1.25;
+          color: #f05523;
+
+        }
+      }
+      .gb-contact_ldpvinhomes-local-text{
+        h3{
+          font-size: 14px;
+          line-height: 1.86;
+          color: #7b7b7b;
+        }
+      }
+    }
+  }
+
+  .gb-contact_ldpvinhomes-map{
+    iframe{
+      width: 100%;
+      overflow: hidden;
+
+    }
+  }
+
+  .gb-contact_ldpvinhomes-item{
+    border-right: 1px solid #e9e9e9;
+    min-height: 120px;
+    overflow: hidden;
+    &:last-child{
+      border: none;
+    }
+  }
+
+}

@@ -1,0 +1,64 @@
+.gb-chitiet_dichvu-cms-sp-cms {
+  margin-top: 60px; }
+  .gb-chitiet_dichvu-cms-sp-cms .gb-dichvu-cms-title {
+    margin-bottom: 50px; }
+  .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item {
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-img-cms {
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      display: block; }
+      .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-img-cms:hover img {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%); }
+      .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-img-cms a {
+        display: block; }
+        .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-img-cms a img {
+          position: relative;
+          width: 100%;
+          height: auto;
+          top: 100%;
+          -webkit-transition: 1.5s linear;
+          -o-transition: 1.5s linear;
+          transition: 1.5s linear; }
+    .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-content {
+      text-align: center;
+      padding-top: 20px; }
+      .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-content h2 a {
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: #404040;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-content h2 a:hover {
+          color: #f0ad4e; }
+      .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-content .price {
+        margin: 15px 0; }
+      .gb-chitiet_dichvu-cms-sp-cms .gb-chitiet_dichvu-cms-sp-cms-item .item-content .lienhe {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        background: #f0ad4e;
+        min-width: 200px;
+        padding: 10px; }
+
+.gb-dichvu-cms-title h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #ffb42d;
+  font-weight: 600; }

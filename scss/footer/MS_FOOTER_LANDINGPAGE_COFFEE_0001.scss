@@ -1,0 +1,29 @@
+/*FOOTER*/
+.gb-footer_ldpgreencoffee-body{
+  background: url(//dadbab.info/content/Green_Coffee_VN1/img/foot.jpg) 50% 0 no-repeat;
+  height: 190px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 992px) {
+    overflow: hidden;
+  }
+  .opacity-bg_ldpgreencoffee{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    p{
+      color: $color-white;
+      margin-top: 10px;
+    }
+  }
+}
+.gb-sub-footer_ldpgreencoffee{
+  padding: 30px 0;
+  p{
+    color: $color-main;
+    text-align: center;
+  }
+}

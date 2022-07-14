@@ -1,0 +1,96 @@
+.gb-banner2_ldp_daimond{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  &:hover{
+    .overlay{
+      left: -35%;
+    }
+  }
+  .overlay{
+    height: 100%;
+    left: -195%;
+    width: 155%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skewX(-34deg);
+    -moz-transform: skewX(-34deg);
+    -ms-transform: skewX(-34deg);
+    -o-transform: skewX(-34deg);
+    transform: skewX(-34deg);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .block-content_ldp_daimond{
+    padding-left: 50px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    h6{
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: $color-white;
+      text-align: center;
+    }
+    h4{
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      padding: 10px 0;
+      margin: 15px 0;
+      text-transform: inherit;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 1.4;
+      color: $color-white;
+      text-align: center;
+      &:before{
+        content: "";
+        display: block;
+        width: 25%;
+        border: 1px solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      &:after{
+        content: "";
+        display: block;
+        width: 25%;
+        border: 1px solid;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+    a{
+      display:  block;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: normal;
+      letter-spacing: 2px;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+}

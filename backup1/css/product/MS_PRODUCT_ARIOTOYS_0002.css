@@ -1,0 +1,31 @@
+/*-------------------------------*/
+.gb-danhmuc-sanpham-body_ariotoys {
+  padding: 40px 0; }
+
+.product_relate_ariotoys {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+
+.title_pro_relate_ariotoys {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ccc; }
+
+.title_pro_relate_ariotoys > h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  padding: 20px 0; }
+
+.title_pro_relate_ariotoys > h2:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #26ADE4; }

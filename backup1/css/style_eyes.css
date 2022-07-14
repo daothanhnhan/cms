@@ -1,0 +1,1697 @@
+@charset "UTF-8";
+/*Định nghĩa màu cho website*/
+/*Định nghĩa font-family cho website*/
+@import url(../plugin/fonts/opensan/opensans.css);
+/*Định nghĩa font-size cho website*/
+h1 {
+  font-size: 24px;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 22px;
+  line-height: 1.5; }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5; }
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5; }
+
+h5 {
+  font-size: 16px;
+  line-height: 1.5; }
+
+h6 {
+  font-size: 14px;
+  line-height: 1.5; }
+
+p {
+  line-height: 1.5; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font-family: "Open Sans";
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.clear-padding {
+  padding: 0; }
+
+.clear-padding-left {
+  padding-left: 0; }
+
+.clear-padding-right {
+  padding-right: 0; }
+
+/*header*/
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
+#Header-HeaderTop_ariotoys {
+  background-color: #232728; }
+  #Header-HeaderTop_ariotoys ul {
+    text-align: right; }
+    #Header-HeaderTop_ariotoys ul li {
+      display: inline-block;
+      padding: 10px 0; }
+      #Header-HeaderTop_ariotoys ul li a {
+        display: block;
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        padding: 0 10px; }
+
+/* main menu */
+#Header-HeaderTop_ariotoys3_ariotoys {
+  background-color: #227688;
+  border-bottom: 2px solid #e79b29; }
+
+.list_main_menu li {
+  display: inline-block; }
+  .list_main_menu li a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 50px;
+    padding: 0 22px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .list_main_menu li a:hover {
+      color: #ffc000;
+      background-color: #d4491b; }
+
+/* danh mcuj sản phẩm */
+.box_list_cate {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 440px;
+  display: none; }
+
+.home {
+  display: block; }
+
+.box_cate_pro:hover .box_list_cate {
+  display: block; }
+
+.list_cate_pro {
+  width: 100%;
+  height: 440px; }
+
+.item_cate_pro {
+  width: 100%;
+  border-right: 0;
+  background-color: #fff;
+  position: relative; }
+
+.item_cate_pro:before {
+  content: "";
+  width: 4px;
+  right: -4px;
+  top: 0;
+  color: #fff;
+  position: absolute; }
+
+.box_title_cate_pro {
+  padding: 0 5px;
+  width: 100%;
+  float: left;
+  position: relative; }
+
+.box_title_cate_pro:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 999; }
+
+.title_cate a {
+  font-size: 14px;
+  color: #505050;
+  font-weight: 500;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 30px;
+  line-height: 45px;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.right-arrow {
+  position: absolute;
+  float: right;
+  top: 17px;
+  right: 10px;
+  width: 10px;
+  height: 12px; }
+
+.woman:hover {
+  border-top-color: transparent !important; }
+
+.box_sub_cate {
+  position: absolute;
+  top: -1px;
+  left: 100%;
+  z-index: 3;
+  opacity: 0;
+  background-color: transparent;
+  visibility: hidden; }
+
+.box_cover_sub_cate {
+  padding: 10px 10px 10px 20px;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  float: left; }
+
+.box_cover_sub_cate > ul {
+  float: left;
+  width: 28%;
+  min-height: 120px;
+  position: relative;
+  z-index: 1; }
+
+.box_cover_sub_cate > ul > li > a.title_sub_cate {
+  color: #333;
+  font-size: 1.3em;
+  font-weight: 700;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: 175px;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.box_cover_sub_cate > ul > li > a {
+  display: block;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 1.3em;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 5px;
+  color: #333;
+  width: 100%;
+  height: 45px;
+  line-height: 45px; }
+
+.box_cover_sub_cate > ul > li > a:hover {
+  color: #ef4a77;
+  text-decoration: underline; }
+
+.item_cate_pro:hover .box_sub_cate {
+  opacity: 1;
+  visibility: unset; }
+
+.item_cate_pro:hover .title_cate > a {
+  padding-left: 40px;
+  color: #efb933;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.no_child {
+  min-height: 22px !important; }
+
+.box_feature_pro_cate {
+  overflow: hidden;
+  position: absolute;
+  bottom: 5px; }
+
+.box_sub_cate .box_feature_pro_cate a {
+  display: block;
+  float: left;
+  width: 120px;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 5px;
+  position: relative;
+  z-index: 1; }
+
+.box_sub_cate .box_feature_pro_cate a img {
+  float: none; }
+
+.box_sub_cate .box_feature_pro_cate a span {
+  display: block;
+  background-color: rgba(204, 204, 204, 0.7);
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 1.1em; }
+
+.box_sub_cate .image_cate {
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  clear: both;
+  display: block; }
+
+.box_sub_cate .img_cate img {
+  display: block;
+  max-width: 100%; }
+
+/*Footer*/
+/* CSS Document */
+#WrapperFooter_ariotoys {
+  width: 100%; }
+
+#Footer-OneFooter_ariotoys {
+  width: 100%;
+  float: left;
+  background: #111;
+  padding: 30px 0; }
+
+.col_address_ariotoys {
+  width: 100%;
+  margin-top: 20px; }
+
+.info_footer_ariotoys img {
+  width: 180px; }
+
+.row_address_ariotoys {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #848484;
+  font-size: 16px; }
+
+.row_address_ariotoys i {
+  position: relative;
+  top: 2px;
+  margin-right: 10px; }
+
+.list_menu_footer {
+  width: 70%;
+  float: right; }
+
+.col_menu_footer_ariotoys {
+  margin-top: 20px; }
+
+.header_menu_footer_ariotoys {
+  font-size: 1.55em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #26ADE4;
+  margin-bottom: 10px; }
+
+.row_menu_footer_ariotoys {
+  width: 100%;
+  padding: 8px 0; }
+
+.row_menu_footer_ariotoys a {
+  color: #848484;
+  font-size: 15px; }
+
+/**/
+#Footer-TwoFooter {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #464040;
+  padding: 20px 0;
+  background: #111;
+  color: #848484;
+  font-size: 14px; }
+
+.end_footer {
+  width: 70%;
+  float: left; }
+
+.end_footer p {
+  color: #848484;
+  font-size: 15px; }
+
+.end_footer a {
+  float: none;
+  color: #fff; }
+
+.end_footer a:hover {
+  text-decoration: underline; }
+
+.design {
+  float: right; }
+
+.design p {
+  float: right;
+  color: #DCB934;
+  font-size: 1.5em;
+  margin-left: 5px;
+  position: relative;
+  top: -7px; }
+
+/*SOCIAL*/
+/* header 2 */
+#Header-HeaderTop_ariotoys2 {
+  background-color: #333; }
+
+.box_cover_header2_ariotoys {
+  position: relative;
+  padding: 25px 0; }
+
+.box_logo_ariotoys {
+  position: relative;
+  display: block;
+  padding: 0 15px; }
+
+.box_cover_logo_ariotoys {
+  height: 50px;
+  text-align: center;
+  top: -5px; }
+
+.box_logo_ariotoys a {
+  width: 100%; }
+
+.box_logo_ariotoys img {
+  width: auto;
+  max-width: 100%; }
+
+.slogan {
+  float: none;
+  color: #e5101d;
+  display: block;
+  letter-spacing: -0.8px;
+  font-weight: bold; }
+
+.box_search_pc_ariotoys {
+  position: relative;
+  padding: 0 15px; }
+
+.cover_box_search_pc_ariotoys {
+  width: 100%;
+  position: relative; }
+
+.box_text_search_ariotoys button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #227688;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 40px;
+  text-align: center; }
+
+.box_text_search_ariotoys button i {
+  float: none; }
+
+.box_text_search_ariotoys {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  border-radius: 3px; }
+
+.box_text_search_ariotoys input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  padding-right: 50px;
+  height: 40px;
+  background-color: #3f3c3c;
+  border: none;
+  color: #a1a1a1; }
+
+.header2_right_ariotoys {
+  position: relative;
+  font-size: 1.3em;
+  z-index: 3;
+  padding: 0 15px;
+  text-align: center; }
+
+.box_cover_header2_ariotoys_right ul li {
+  display: inline-block; }
+
+.link_social {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.item_social:nth-child(1) .link_social:hover {
+  background-color: #3b5998;
+  border: 2px solid #3b5998;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.item_social:nth-child(2):hover .link_social {
+  border: 2px solid #00aced;
+  background-color: #00aced;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.item_social:nth-child(3):hover .link_social {
+  border: 2px solid #bb0000;
+  background-color: #bb0000;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.item_social:nth-child(4):hover .link_social {
+  border: 2px solid #dd4b39;
+  background-color: #dd4b39;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.item_social:nth-child(5):hover .link_social {
+  border: 2px solid #e67329;
+  background-color: #e67329;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.listMXH_Contact_ariotoys li {
+  display: inline-block; }
+  .listMXH_Contact_ariotoys li a {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #227688; }
+
+/*MENU*/
+/*EMAIL*/
+/* EMail */
+#Content-Email_ariotoys {
+  width: 100%;
+  float: left;
+  background-image: url("../image/banner-dang-ky-nhan-tin.jpg");
+  background-size: cover;
+  padding: 70px 0;
+  background-position: center; }
+
+.header_send_email_ariotoys {
+  width: 100%;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative; }
+
+.header_send_email_ariotoys:after {
+  content: " ";
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  border: 1px solid;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.sub_send_email_ariotoys {
+  width: 100%;
+  float: left;
+  font-size: 1.7em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.box_email_ariotoys .form-control {
+  height: 45px;
+  background: transparent;
+  color: #fff; }
+
+.box_email_ariotoys .btn {
+  text-shadow: none;
+  height: 45px;
+  background: transparent;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .box_email_ariotoys .btn:hover {
+    color: #fff;
+    background: #e79b29; }
+
+/* do not group these rules */
+.box_email_ariotoys::-webkit-input-placeholder {
+  color: #fff; }
+
+.box_email_ariotoys::-moz-placeholder {
+  /* FF 4-18 */
+  color: #fff; }
+
+.box_email_ariotoys::-moz-placeholder {
+  /* FF 19+ */
+  color: #fff; }
+
+.box_email_ariotoys::-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff; }
+
+/*PARTNER*/
+#Content-Partner_ariotoys .owl-theme .owl-nav [class*=owl-] {
+  width: 40px;
+  height: 40px;
+  background: #227688;
+  border-radius: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+#Content-Partner_ariotoys .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 40px;
+  left: 0; }
+  #Content-Partner_ariotoys .owl-carousel .owl-nav .owl-prev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    color: #fff; }
+
+#Content-Partner_ariotoys .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 40px;
+  right: 0; }
+  #Content-Partner_ariotoys .owl-carousel .owl-nav .owl-next:before {
+    content: '\f105';
+    font-family: FontAwesome;
+    color: #fff; }
+
+/*SIDEBAR*/
+.box_category_ariotoys {
+  width: 100%;
+  border: 1px solid #f1f1f1; }
+
+.header_category_ariotoys {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  font-weight: 500;
+  background-color: #227688;
+  border-left: 5px solid #227688; }
+
+.header_category_ariotoys {
+  display: block;
+  padding: 13px 0;
+  text-align: left;
+  padding-left: 10px; }
+  .header_category_ariotoys i {
+    padding-right: 10px; }
+
+.list_category {
+  width: 100%;
+  background-color: #333;
+  border-left: 5px solid #227688; }
+
+.item_category {
+  width: 100%;
+  position: relative; }
+
+.item_category:last-child {
+  border-bottom: none; }
+
+.link_category {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px;
+  line-height: 21px;
+  width: 100%;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.link_category:hover {
+  background: #403c3d;
+  color: #fff; }
+
+.sub_cate_menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #df5020;
+  border-left: 5px solid #403c3b;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden; }
+
+.item_sub_cate_menu {
+  width: 100%; }
+
+.link_sub_cate_menu {
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 15px;
+  width: 100%;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.link_sub_cate_menu:hover {
+  padding-left: 35px;
+  color: #98E9E9;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.item_category:hover .sub_cate_menu {
+  opacity: 1;
+  visibility: unset; }
+
+.feature_product {
+  border: 1px solid #e9e9e9;
+  padding: 10px; }
+
+.side_bar_ariotoys {
+  margin-bottom: 30px; }
+
+.box_caption_product_ariotoys h3 a {
+  display: block;
+  font-size: 13px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  margin: 10px 0; }
+
+.box_price_product_ariotoys .current_price {
+  font-size: 14px;
+  color: #227688;
+  font-weight: 700;
+  margin-right: 10px; }
+
+.box_price_product_ariotoys .old_price {
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+  text-decoration: line-through; }
+
+.box_adv_sidebar_ariotoys img {
+  width: 100%;
+  height: auto; }
+
+/*PRODUCT*/
+.box_product {
+  width: 100%;
+  float: left; }
+
+.box_list_pro_ariotoysduct_ariotoys {
+  width: 100%;
+  float: left; }
+
+.item_product_ariotoys {
+  border: 1px solid #f4f4f4;
+  padding: 10px;
+  margin-top: 30px; }
+
+.header_list_product {
+  width: 100%;
+  background-color: #eaeaea;
+  padding: 12px; }
+
+.header_list_product span {
+  font-family: 'bebas', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #227688;
+  padding-right: 20px;
+  text-transform: uppercase; }
+
+.header_list_product a {
+  float: right;
+  color: #227688;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  top: 5px; }
+
+.box_image_product_ariotoys {
+  position: relative; }
+  .box_image_product_ariotoys a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0 0 rgba(223, 80, 32, 0.8);
+    opacity: 0; }
+
+.box_image_product_ariotoys img {
+  width: 100%; }
+
+.box_action_ariotoys {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 75%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+  width: 110px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.add_compare_ariotoys, .add_favorite_ariotoys, .add_cart {
+  width: 30px;
+  height: 30px;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 50%; }
+
+.add_compare_ariotoys {
+  margin: 0 10px; }
+
+.box_action_ariotoys > a > i {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.box_action_ariotoys > a:hover {
+  background-color: #d9a31f; }
+
+.box_image_product_ariotoys:hover .box_action_ariotoys {
+  opacity: 1;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; }
+
+.box_image_product_ariotoys:hover > a:after {
+  opacity: 1; }
+
+.box_caption_product_ariotoys > h3 > a {
+  width: 100%;
+  height: 32px;
+  font-size: 13px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  margin: 10px 0; }
+
+.current_price {
+  font-size: 14px;
+  color: #227688;
+  font-weight: 700;
+  margin-right: 10px; }
+
+.old_price {
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+  text-decoration: line-through; }
+
+/* ---------------- */
+/*-------------------------------*/
+.gb-danhmuc-sanpham-body_ariotoys {
+  padding: 40px 0; }
+
+.product_relate_ariotoys {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+
+.title_pro_relate_ariotoys {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ccc; }
+
+.title_pro_relate_ariotoys > h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  padding: 20px 0; }
+
+.title_pro_relate_ariotoys > h2:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #26ADE4; }
+
+/*other*/
+/*BANNER*/
+.item_banner3 img {
+  width: 100%;
+  height: auto; }
+
+.box_banner_ariotoys {
+  margin: 30px 0; }
+  .box_banner_ariotoys img {
+    width: 100%;
+    height: auto; }
+
+/*BREAKCRUM*/
+.box_breadcrumb {
+  margin: 20px 0;
+  width: 100%;
+  float: left; }
+
+.box_breadcrumb ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px; }
+  .box_breadcrumb ul li a {
+    font-size: 14px;
+    color: #bb9347;
+    text-transform: capitalize;
+    line-height: 15px; }
+  .box_breadcrumb ul li:before {
+    content: '/';
+    position: absolute;
+    right: -11px;
+    margin: 0 5px; }
+  .box_breadcrumb ul li:last-child:before {
+    content: ""; }
+
+/*INTRODUCE*/
+.box_breadcrumb {
+  margin: 20px 0;
+  width: 100%;
+  float: left;
+  background-color: #f5f5f5;
+  padding: 8px; }
+
+.box_breadcrumb > a {
+  font-size: 14px;
+  color: #555;
+  text-transform: capitalize;
+  line-height: 15px; }
+
+.box_breadcrumb > p {
+  color: #bb9347;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0 8px; }
+
+.box_about_ariotoys {
+  width: 100%;
+  float: left; }
+
+.title_about_ariotoys {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  background-color: #f1f1f1; }
+
+.title_about_ariotoys > i {
+  color: #fff;
+  font-size: 22px;
+  padding: 14px;
+  background-color: #3E8871;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  float: left; }
+
+.title_about_ariotoys > h2 {
+  font-size: 20px;
+  color: #555;
+  line-height: 50px;
+  font-weight: 500;
+  position: relative;
+  text-transform: capitalize; }
+
+.content_about_ariotoys {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-bottom: 20px; }
+  .content_about_ariotoys h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5; }
+
+.content_about_ariotoys > p {
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+  margin: 6px 0;
+  width: 100%; }
+
+.content_about_ariotoys img {
+  width: auto;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  max-width: 100%;
+  float: none; }
+
+/*BREADCRUMS*/
+.box_breadcrumb {
+  margin: 20px 0;
+  width: 100%;
+  float: left; }
+
+.box_breadcrumb ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px; }
+  .box_breadcrumb ul li a {
+    font-size: 14px;
+    color: #bb9347;
+    text-transform: capitalize;
+    line-height: 15px; }
+  .box_breadcrumb ul li:before {
+    content: '/';
+    position: absolute;
+    right: -11px;
+    margin: 0 5px; }
+  .box_breadcrumb ul li:last-child:before {
+    content: ""; }
+
+/*PAGE*/
+/*CONTACT*/
+#Content-mainContact_ariotoys {
+  width: 100%;
+  float: left;
+  padding-top: 130px;
+  background-color: #F5F5F5; }
+
+.subNamePage_ariotoys {
+  width: 100%;
+  text-align: center;
+  color: #0F8C97;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative; }
+
+.subNamePage_ariotoys:after {
+  position: absolute;
+  background-color: #0F8C97;
+  bottom: -15px;
+  height: 3px;
+  width: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  content: ""; }
+
+.titleMainPage_ariotoys {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin: 30px 0px; }
+
+.rowPageContact_ariotoys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px; }
+
+.rowPageContact_ariotoys i {
+  font-size: 1.8em;
+  margin-right: 10px;
+  color: #0F8C97;
+  margin-top: 5px;
+  float: left; }
+
+.listMXH_Contact_ariotoys li {
+  border: 1px solid #9F9F9F;
+  color: #0F8C97;
+  margin-right: 10px;
+  margin-top: 20px; }
+
+.listMXH_Contact_ariotoys li a {
+  padding: 8px 10px;
+  font-size: 1.7em;
+  color: #0F8C97; }
+
+.txtCT, .longTXTCT {
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #999;
+  color: #666;
+  padding: 7px 10px;
+  background-color: #F5F5F5; }
+
+.longTXTCT {
+  height: 150px; }
+
+.btnCT {
+  float: left;
+  outline: none;
+  border: none;
+  text-align: center;
+  padding: 10px 0px;
+  color: #fff;
+  width: 34%;
+  margin: 0px 33%;
+  background-color: #0F8C97;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.rowMap {
+  float: left;
+  width: 100%;
+  margin: 30px 0px; }
+
+/*CHARACTERISTIC*/
+/* ------------------- */
+#Content-Support_ariotoys {
+  width: 100%;
+  float: left; }
+
+.box_support_ariotoys {
+  width: 100%;
+  float: left; }
+
+.list_support_ariotoys {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee; }
+
+.item_support_ariotoys {
+  width: 33.335%;
+  border-right: 1px solid #eee;
+  padding: 5px 20px; }
+
+.item_support_ariotoys:last-child {
+  border-right: 0; }
+
+.item_support_ariotoys > a > i {
+  width: 20%;
+  font-size: 50px;
+  color: #a7a7a7;
+  padding: 0 10px; }
+
+.info_support_ariotoys {
+  width: 75%;
+  float: right; }
+
+.info_support_ariotoys > a {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #a7a7a7;
+  font-weight: 600;
+  width: 100%; }
+
+.info_support_ariotoys > p {
+  color: #5b5b5b;
+  margin-top: 10px; }
+
+/*SLIDESHOW*/
+.gb-slide-home_ariotoys {
+  margin-top: 30px; }
+
+/*cart*/
+#Content-Product-Category_ariotoys {
+  width: 100%;
+  float: left; }
+
+.box_pro_cate_ariotoys {
+  width: 100%;
+  float: left;
+  padding: 30px 0 0 0; }
+
+.sidebar {
+  width: 25%;
+  float: left;
+  padding: 0 15px; }
+
+.header_category_ariotoys h2 {
+  color: #fff;
+  background-color: #26ADE4;
+  padding: 10px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%; }
+
+.list_category {
+  width: 100%;
+  border: 1px solid #f3f2f2;
+  border-top: 0; }
+
+.item_category {
+  width: 100%; }
+
+.item_category > a {
+  color: #ffff;
+  font-size: 14px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 12px 22px;
+  width: 100%; }
+
+.item_category > a:hover {
+  color: #26ADE4; }
+
+.content {
+  width: 75%;
+  float: left;
+  padding: 0 15px; }
+
+.header_detail_ariotoys {
+  width: 100%;
+  float: left; }
+
+.box_image {
+  width: 50%;
+  float: left;
+  padding: 0 15px; }
+
+.main_image {
+  width: 100%;
+  float: left;
+  border: 1px solid #ddd;
+  margin-bottom: 20px; }
+
+.main_image img {
+  width: 100%; }
+
+.sub_image {
+  width: 100%;
+  float: left; }
+
+.list_sub_image {
+  width: 100%; }
+  .list_sub_image li {
+    display: inline-block;
+    width: 25%; }
+
+.cover_sub_image {
+  width: 100%;
+  float: left;
+  border: 1px solid #ddd; }
+
+.cover_sub_image img {
+  width: 100%; }
+
+/*---------------------box_caption---------------------*/
+.box_caption {
+  width: 50%;
+  float: left;
+  padding: 0 15px; }
+
+.box_caption > h1 {
+  font-size: 22px;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%; }
+
+.box_caption .rating {
+  float: left;
+  width: 100%;
+  padding: 20px 0; }
+
+.box_caption .rating > i {
+  color: #ecad25;
+  font-size: 15px;
+  margin-right: 3px;
+  float: left !important; }
+
+.box_caption .rating > a {
+  color: #337ab7;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 15px; }
+
+.caption_info {
+  width: 100%;
+  float: left; }
+
+.caption_info > span {
+  font-size: 14px;
+  float: left;
+  line-height: 25px;
+  color: #666;
+  clear: both; }
+
+.caption_info > span > a {
+  float: right;
+  margin-left: 5px; }
+
+.box_caption .old_price {
+  text-align: left;
+  color: #666;
+  font-weight: normal; }
+
+.box_caption .current_price {
+  font-size: 20px;
+  color: #333;
+  margin: 20px 0;
+  font-weight: 700; }
+
+.action_form_ariotoys {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #eee; }
+
+.action_form_ariotoys > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  padding: 15px 0; }
+
+.color {
+  font-size: 14px;
+  color: #888;
+  width: 100%; }
+
+.color:before {
+  content: "*";
+  color: red;
+  margin-right: 2px; }
+
+.action_form_ariotoys > select {
+  width: 100%;
+  height: 31px;
+  font-size: 13px;
+  color: #666;
+  border: 1px solid #eee;
+  outline: none;
+  padding: 0 0 0 15px;
+  margin: 10px 0; }
+
+.action_favorite_compare {
+  width: 100%;
+  float: left; }
+
+.action_favorite_compare > span {
+  font-size: 15px;
+  color: #fff;
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: #26ADE4;
+  float: left;
+  cursor: pointer; }
+
+.action_cart {
+  width: 100%;
+  float: left;
+  margin-top: 30px; }
+
+.action_cart > label {
+  font-size: 15px;
+  color: #555;
+  line-height: 31px;
+  float: left;
+  margin-right: 15px; }
+
+.action_cart > input {
+  width: 50px;
+  height: 31px;
+  padding: 0 10px;
+  border: 1px solid #eee;
+  outline: none;
+  color: #555;
+  margin-right: 15px; }
+
+.action_cart > button {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 31px;
+  background-color: #333;
+  border: none;
+  padding: 0 20px; }
+
+.action_cart i {
+  color: #fff;
+  position: relative;
+  top: 2px; }
+
+/*----------------------------------------*/
+.box_des_rating_ariotoys {
+  width: 100%;
+  float: left;
+  margin-top: 40px; }
+
+.span-tab {
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd; }
+
+.span_tab {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: 5px;
+  background-color: #333;
+  float: left; }
+
+.span_tab > a {
+  color: #fff;
+  font-size: 14px; }
+
+.span_tab_content {
+  width: 100%;
+  float: left; }
+
+.span_tab_content > p {
+  color: #848484;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.tab2 > h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+  width: 100%;
+  font-weight: 700; }
+
+.tab2 .title_comment {
+  font-size: 14px;
+  color: #666;
+  float: left; }
+
+.tab2 .title_comment:before {
+  content: "*";
+  color: red;
+  margin-right: 3px; }
+
+#input, .tab2 textarea {
+  float: left;
+  height: 31px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 5px;
+  padding: 0 12px;
+  outline: none;
+  line-height: 31px;
+  margin-bottom: 10px; }
+
+.tab2 textarea {
+  height: 93px !important; }
+
+#rating {
+  float: left; }
+
+.tab2 button {
+  clear: both;
+  color: #fff;
+  background-color: #333;
+  font-size: 14px;
+  padding: 7px 14px;
+  float: right; }
+
+.box_rating {
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  color: #333; }
+
+.box_rating > p {
+  margin-left: 15px; }
+
+.box_rating > input {
+  margin-left: 10px;
+  margin-top: 5px; }
+
+/*-------------------------------*/
+.product_relate_ariotoys {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+
+.title_pro_relate_ariotoys {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ccc; }
+
+.title_pro_relate_ariotoys > h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  padding: 20px 0; }
+
+.title_pro_relate_ariotoys > h2:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #26ADE4; }
+
+/*PAGINATION*/
+.loop-pagination {
+  text-align: center;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .loop-pagination li {
+    float: left;
+    margin-left: -1px; }
+    @media screen and (max-width: 991px) {
+      .loop-pagination li {
+        margin-left: 1px; } }
+    .loop-pagination li:first-child {
+      margin-left: 0; }
+    .loop-pagination li a.page-numbers {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 50px;
+      height: 50px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1.06;
+      text-align: center;
+      color: #666666;
+      border: 1px solid #e0e0e0;
+      padding: 10px 15px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media screen and (max-width: 767px) {
+        .loop-pagination li a.page-numbers {
+          width: 35px;
+          height: 35px; } }
+      .loop-pagination li a.page-numbers:hover {
+        background: #227688;
+        color: #fff;
+        border-color: #227688; }
+    .loop-pagination li a.current {
+      background: #227688;
+      color: #fff;
+      border-color: #227688; }
+    .loop-pagination li a.prev {
+      border: 1px solid #E0E0E0;
+      padding: 10px 18px; }
+    .loop-pagination li a.next {
+      border: 1px solid #E0E0E0;
+      padding: 10px 18px; }
+
+/*search*/
+.product-filter_ariotoys {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 30px; }
+  .product-filter_ariotoys .woocommerce-result-count {
+    float: left; }
+    @media screen and (max-width: 767px) {
+      .product-filter_ariotoys .woocommerce-result-count {
+        float: none; } }
+  .product-filter_ariotoys .woocommerce-ordering {
+    float: right; }
+    @media screen and (max-width: 767px) {
+      .product-filter_ariotoys .woocommerce-ordering {
+        float: none;
+        margin-top: 20px; } }
+  .product-filter_ariotoys p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+    padding-top: 15px; }
+  .product-filter_ariotoys form {
+    margin-bottom: 0; }
+  .product-filter_ariotoys select {
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666;
+    width: 205px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    padding: 0 15px; }
+    @media screen and (max-width: 767px) {
+      .product-filter_ariotoys select {
+        width: 100%; } }
+    .product-filter_ariotoys select option {
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #808080; }

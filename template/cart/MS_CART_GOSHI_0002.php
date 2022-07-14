@@ -1,0 +1,1 @@
+<a href="#" class="add_compare_goshi"><i class="fa fa-refresh" aria-hidden="true"></i></a>

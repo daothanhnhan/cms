@@ -1,0 +1,64 @@
+/*NGHIÊN CỨU LÂM SÀNG*/
+.gb-nghiencuu-lam-sang_ldpgreencoffee{
+  .gb-nghiencuu-lam-sang_ldpgreencoffee-body{
+    position: relative;
+    //background: url(../images/slide5.jpg) 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @media screen and (max-width: 992px) {
+      overflow: hidden;
+    }
+    .gb-nghiencuu-lam-sang_ldpgreencoffee-left{
+      h2{
+        font-size: 50px;
+        padding: 55px 0 20px 0;
+        color: #93BC0A;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          font-size: 36px;
+        }
+      }
+      p{
+        line-height: 24px;
+        font-weight: 600;
+        font-size: 14px;
+        color: $color-white;
+        margin: 20px 0;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          font-size: 13px;
+        }
+        span{
+          color: #93BC0A;
+        }
+      }
+      ul{
+        padding-left: 20px;
+        li{
+          list-style-type: disc;
+          line-height: 24px;
+          font-weight: 600;
+          font-size: 16px;
+          color: #93BC0A;;
+          @media screen and (max-width: 1199px) and (min-width: 992px) {
+            font-size: 13px;
+          }
+        }
+      }
+      .btn-dat-hang_ldpgreencoffee{
+        position: relative;
+        a{
+          position: absolute;
+          bottom: -60px;
+          @media screen and (max-width: 1199px) and (min-width: 992px) {
+            bottom: -40px;
+          }
+        }
+      }
+    }
+    .gb-nghiencuu-lam-sang_ldpgreencoffee-right{
+      padding-top: 100px;
+      .gb-nghiencuu-lam-sang_ldpgreencoffee-right-item{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

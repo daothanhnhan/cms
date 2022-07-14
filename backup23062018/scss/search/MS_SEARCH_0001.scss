@@ -1,0 +1,58 @@
+.thuonghieu-filter-cms{
+  .table{
+    border: 1px solid #ddd;
+    tr{
+      th{
+        width: 15%;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #333;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      td{
+        width: 85%;
+        border: 1px solid #ddd;
+      }
+      ul{
+        li{
+          display: inline-block;
+          margin-right: 15px;
+          &:last-child{
+            margin-right: 0;
+          }
+          a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px 10px;
+            width: auto;
+            border: 1px solid #ddd;
+            color: #333;
+            font-size: 14px;
+            &:hover{
+              border-color: #f00;
+            }
+          }
+        }
+      }
+      &.gia-filter-cms{
+        ul{
+          li{
+            font-size: 14px;
+            input{
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      &.mausac-filter-cms{
+
+      }
+    }
+  }
+}

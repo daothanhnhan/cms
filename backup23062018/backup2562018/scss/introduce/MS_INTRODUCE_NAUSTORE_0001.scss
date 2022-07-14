@@ -1,0 +1,35 @@
+.gb-introduce-excerpt_naustore{
+  padding-bottom: 50px;
+  &-body{
+    border: 5px solid $color-main-naustore;
+    padding: 130px 80px;
+    background: url("../images/bg_BEAUTY.jpg") no-repeat;
+    background-size: cover;
+    @media screen and (max-width: 767px){
+      padding: 80px 20px;
+    }
+    h2{
+      color: #3f2803;
+      font-size: 36px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 40px;
+      text-transform: none;
+    }
+    p{
+      color: #adadad;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: none;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+    .btnreadmore_naustore{
+      display:  inline-block;
+      background: $color-main-naustore;
+      color: $color-white;
+      padding: 15px 25px ;
+      font-size: 16px;
+    }
+  }
+}

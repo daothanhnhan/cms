@@ -1,0 +1,66 @@
+.gb-breadcrum-cms{
+  background: url("../images/back6.jpg") no-repeat;
+  min-height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  width: 100%;
+  background-position: center center;
+  .page-title-cms{
+    float: left;
+    @media screen and (max-width: 767px) {
+      float:  none;
+    }
+    h1{
+      font-size: 36px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+  .breadcrumbs{
+    float: right;
+    line-height: 51px;
+    @media screen and (max-width: 767px) {
+      float: none;
+    }
+    li{
+      display: inline-block;
+      text-transform: capitalize;
+      a{
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #ffffff;
+      }
+      &:first-child{
+        &:before{
+          content: '';
+        }
+      }
+      &:before{
+        content: '\f105';
+        font-family:  FontAwesome;
+        font-size: 14px;
+        color: #fff;
+        padding: 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,197 @@
+/*MENU DESKTOP*/
+.uni-main-menu-cms{
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  .main-menu{
+    position:  relative;
+  }
+  .cssmenu_cms,
+  .cssmenu_cms ul,
+  .cssmenu_cms ul li,
+  .cssmenu_cms ul li a,
+  .cssmenu_cms #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .cssmenu_cms:after,
+  .cssmenu_cms > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  .cssmenu_cms #menu-button {
+    display: none;
+  }
+  .cssmenu_cms {
+    width: auto;
+    font-family: $monserrat;
+    line-height: 1;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+  }
+  .cssmenu_cms > ul > li {
+    float: left;
+  }
+  .cssmenu_cms.align-center > ul {
+    font-size: 0;
+    text-align: center;
+  }
+  .cssmenu_cms.align-center > ul > li {
+    display: inline-block;
+    float: none;
+  }
+  .cssmenu_cms.align-center ul ul {
+    text-align: left;
+  }
+  .cssmenu_cms.align-right > ul > li {
+    float: right;
+  }
+  .cssmenu_cms.align-right ul ul {
+    text-align: right;
+  }
+  .cssmenu_cms > ul > li > a {
+    font-family: $monserrat;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: $color11;
+    padding: 31px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .2s ease;
+    @media screen and (min-width: 992px) and (max-width:  1199px) {
+      font-size: 11px;
+      padding: 45px 10px;
+    }
+  }
+  .cssmenu_cms > ul > li:hover > a,
+  .cssmenu_cms > ul > li.active > a {
+    color: #fcae1d;
+  }
+  .cssmenu_cms > ul > li.has-sub > a {
+    padding-right: 25px;
+    &:hover{
+      &:before{
+        content: '';
+        display:  block;
+      }
+    }
+  }
+  .cssmenu_cms > ul > li.has-sub > a::after {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid $color10;
+    border-right: 1px solid $color10;
+    content: "";
+    transform: rotate(45deg);
+    transition: border-color 0.2s ease;
+  }
+  .cssmenu_cms > ul > li.has-sub:hover > a::after {
+    border-color: #fcae1d;
+  }
+  .cssmenu_cms ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: $color3;
+    box-shadow: 0 0 10px 0 $color9;
+  }
+  .cssmenu_cms li:hover > ul {
+    left: auto;
+  }
+  .cssmenu_cms.align-right li:hover > ul {
+    right: 0;
+  }
+  .cssmenu_cms ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: $color3;
+    box-shadow: 0 0 10px 0 $color9;
+  }
+  .cssmenu_cms ul ul ul li a{
+    color: $color6;
+    border-top: 1px solid $color7;
+  }
+  .cssmenu_cms.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+  }
+  .cssmenu_cms ul ul li {
+    height: 0;
+    transition: height .2s ease;
+  }
+  .cssmenu_cms ul li:hover > ul > li {
+    height: 48px;
+  }
+  .cssmenu_cms ul ul li a {
+    display: block;
+    font-family: $monserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color6;
+    padding: 12px 20px;
+    min-width: 240px;
+    background: transparent;
+    border-top: 1px solid $color7;
+    text-decoration: none;
+    transition: color .2s ease;
+  }
+  .cssmenu_cms ul ul li:first-child{
+    a{
+      border-top: none;
+    }
+  }
+  .cssmenu_cms ul ul li:hover > a,
+  .cssmenu_cms ul ul li a:hover {
+    color: $color3;
+    background: $color1;
+  }
+  .cssmenu_cms ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid $color4;
+    border-right: 1px solid $color4;
+    content: "";
+    transform: rotate(-45deg);
+    transition: border-color 0.2s ease;
+  }
+  .cssmenu_cms.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid $color5;
+    border-left: 1px solid $color5;
+  }
+  .cssmenu_cms ul ul li.has-sub:hover > a::after {
+    border-color: $color3;
+  }
+}

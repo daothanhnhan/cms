@@ -1,0 +1,70 @@
+.gb-header-naustore{
+  .gb-header-between_naustore-between{
+    @media screen and (max-width: 767px) {
+      display:  none;
+    }
+  }
+}
+.gb-top-header_naustore{
+  background: $color-main-naustore;
+  &-right{
+    text-align: right;
+    @media screen and (max-width: 767px) {
+      display:  none;
+    }
+    ul{
+      li{
+        display:  inline-block;
+        a{
+          display: block;
+          color: $color-white;
+          font-weight: 700;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 15px;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main1-naustore;
+          }
+          i{
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.gb-header-between_naustore{
+  padding: 10px 0;
+  h1{
+    a{
+      display:  block;
+      img{
+        width: 100px;
+        height:  auto;
+      }
+    }
+  }
+}
+.gb-header-between_naustore-right{
+  padding-top: 30px;
+  text-align: center;
+  ul{
+    li{
+      display:  inline-block;
+      border-right:  2px dotted $color-main1-naustore;
+      &:last-child{
+        border-right: none;
+      }
+    }
+  }
+}
+.gb-header-bottom_naustore{
+  border-top: 1px solid $color-main1-naustore;
+  .gb-header-bottom_naustore-menu{
+
+  }
+  .gb-header-bottom_naustore-search{
+    padding: 5px 0;
+  }
+}

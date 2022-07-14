@@ -1,0 +1,20 @@
+.footer_contact_infos{
+  ul{
+    li{
+      display:  block;
+      font-size: 14px;
+      line-height: 25px;
+      color: $color-white;
+      i{
+        color: $color-main-vyhofoco;
+        margin-right: 5px;
+      }
+      a{
+        display:  block;
+        font-size: 13px;
+        line-height: 25px;
+        color: $color-white;
+      }
+    }
+  }
+}

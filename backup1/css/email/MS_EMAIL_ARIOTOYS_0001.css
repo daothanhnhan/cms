@@ -1,0 +1,73 @@
+/* EMail */
+#Content-Email_ariotoys {
+  width: 100%;
+  float: left;
+  background-image: url("../image/banner-dang-ky-nhan-tin.jpg");
+  background-size: cover;
+  padding: 70px 0;
+  background-position: center; }
+
+.header_send_email_ariotoys {
+  width: 100%;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative; }
+
+.header_send_email_ariotoys:after {
+  content: " ";
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  border: 1px solid;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.sub_send_email_ariotoys {
+  width: 100%;
+  float: left;
+  font-size: 1.7em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.box_email_ariotoys .form-control {
+  height: 45px;
+  background: transparent;
+  color: #fff; }
+
+.box_email_ariotoys .btn {
+  text-shadow: none;
+  height: 45px;
+  background: transparent;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .box_email_ariotoys .btn:hover {
+    color: #fff;
+    background: #e79b29; }
+
+/* do not group these rules */
+.box_email_ariotoys::-webkit-input-placeholder {
+  color: #fff; }
+
+.box_email_ariotoys::-moz-placeholder {
+  /* FF 4-18 */
+  color: #fff; }
+
+.box_email_ariotoys::-moz-placeholder {
+  /* FF 19+ */
+  color: #fff; }
+
+.box_email_ariotoys::-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff; }

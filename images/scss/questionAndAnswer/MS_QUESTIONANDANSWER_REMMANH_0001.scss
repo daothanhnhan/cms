@@ -1,0 +1,32 @@
+.gb-home-taisaochonchungtoi{
+  padding: 50px 0;
+}
+.gb-taisaochonremmanh_remmanh{
+  h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: $color-main;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  ul{
+    margin-top: 20px;
+    li{
+      position:  relative;
+      padding-left: 20px;
+      font-size: 16px;
+      line-height: 30px;
+      color: $color-white;
+      &:before{
+        content: '';
+        width: 7px;
+        height: 7px;
+        background: $color-main;
+        position: absolute;
+        top: 8px;
+        left: 0;
+        border-radius: 50%;
+      }
+    }
+  }
+}

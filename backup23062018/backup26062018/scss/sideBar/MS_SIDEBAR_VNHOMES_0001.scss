@@ -1,0 +1,65 @@
+.gb-sidebar-search_vnhomes{
+  border: 1px solid #469ae9;
+  margin-bottom: 30px;
+  .widget-content{
+    padding: 30px 15px;
+  }
+  .widget_sidebar-title_vnhomes{
+    font-size: 20px;
+    color: #fff;
+    background: #469ae9;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .vk-newlist-banner-test-search button{
+    transition: all 0.5s;
+  }
+  .vk-newlist-banner-test-search button:hover{
+    background: #469ae9;
+    color: #fff;
+  }
+  form{
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  .vk-newlist-banner-test-search{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: solid 1px #469ae9;
+    border-radius: 0;
+    input{
+      width: 80%;
+      height: 50px;
+      border: none;
+      outline: none;
+      color: #000;
+      background: transparent;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 14px;
+      text-indent: 15px;
+    }
+    button{
+      width: 20%;
+      height: 48px;
+      background: #469ae9;
+      border:  none;
+      border-left: 1px solid #469ae9;
+      outline: none;
+      text-align: center;
+      line-height: 44px;
+      color: #fff;
+      font-size: 14px;
+      float: right;
+      border-radius: 0px;
+      transition:  all 0.5s;
+      &:hover{
+        color: #469ae9;
+        background: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.gb-home-product-vyhofoco-relate{
+  .titleCategoryProduct_vyhofoco{
+    text-align: center;
+    font-size: 30px;
+    color: $color-main-vyhofoco;
+    margin: 10px 0;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 30px;
+    &:after{
+      position: absolute;
+      bottom: -15px;
+      height: 0;
+      width: 150px;
+      border-bottom: 3px double $color-main-vyhofoco;
+      left: 50%;
+      transform: translateX(-50%);
+      content: "";
+    }
+  }
+  .owl-nav [class*=owl-]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+    transition:  all 0.5s;
+    &:hover{
+      background: transparent !important;
+      border-color: $color-6;
+      &:before{
+        color: $color-6;
+      }
+    }
+  }
+  .owl-nav{
+    margin-top: 0 !important;
+    @media screen and (max-width: 991px) and (min-width: 768px)  {
+      top: -78px;
+    }
+    .owl-prev{
+      position: absolute;
+      top: 45%;
+      left: -45px;
+      display: flex !important;
+      &:before{
+        content: '\f177';
+        font-family: FontAwesome;
+        color: #afafaf;
+        font-size: 20px;
+      }
+    }
+    .owl-next{
+      position: absolute;
+      top: 45%;
+      right: -45px;
+      display: flex !important;
+      &:before{
+        content: '\f178';
+        font-family: FontAwesome;
+        color: #afafaf;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.product_item_vyhofoco{
+  .product_item_img_vyhofoco{
+    overflow:  hidden;
+    img{
+      width: 100%;
+      height: 270px;
+      transition:  all 0.5s;
+      &:hover{
+        transform:  scale(1.1);
+      }
+    }
+  }
+  .product_item_text_vyhofoco{
+    padding: 20px;
+    background: $color-white;
+    h2{
+      a{
+        display:  block;
+        color: $color-1;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 20px;
+        &:after{
+          content: '';
+          width: 50px;
+          height: 2px;
+          background: $color-grey;
+          position: absolute;
+          bottom: -7px;
+          left: 0;
+        }
+      }
+    }
+  }
+  .product_item_price_chitiet_vyhofoco{
+    position: relative;
+    .btn-productxemchitiet_vyhofoco{
+      display:  inline-block;
+      border: 1px solid $color-main-vyhofoco;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 14px;
+      color: $color-white;
+      transition:  all 0.5s;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      background:  $color-main-vyhofoco;
+      &:hover{
+        color: $color-main-vyhofoco;
+        background: transparent;
+      }
+    }
+  }
+}

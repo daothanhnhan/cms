@@ -1,0 +1,28 @@
+//TAGS CLOUND
+.uni-widget-tagsclound-cms{
+  padding-top: 30px;
+  ul{
+    li{
+      display:  inline-block;
+      margin: 0 10px 10px 0;
+      a{
+        display:  block;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 34px;
+        padding: 0 20px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #666666;
+        transition:  all 0.5s;
+        border: 1px dashed #E0E0E0;
+        &:hover{
+          color: #f0ad4e;
+          border-color: #f0ad4e;
+        }
+      }
+    }
+  }
+}

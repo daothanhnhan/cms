@@ -1,0 +1,19 @@
+.box_price_product_goshi{
+  display:  flow-root;
+  margin-top: 10px;
+  .price_product_goshi{
+    color: $color-main-goshi;
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    margin: 3px 0;
+  }
+  .old_price_goshi{
+    font-size: 15px;
+    font-weight: 600;
+    color: $color-main-goshi1;
+    text-decoration: line-through;
+    margin: 3px 0;
+    float: right;
+  }
+}

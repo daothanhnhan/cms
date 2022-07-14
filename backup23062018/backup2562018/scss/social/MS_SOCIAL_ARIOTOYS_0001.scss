@@ -1,0 +1,167 @@
+/* header 2 */
+
+#Header-HeaderTop_ariotoys2{
+  background-color: #333;
+}
+
+.box_cover_header2_ariotoys{
+  position: relative;
+  padding: 25px 0;
+}
+
+.box_logo_ariotoys{
+  position: relative;
+  display: block;
+  padding: 0 15px;
+}
+.box_cover_logo_ariotoys{
+  height: 50px;
+  text-align: center;
+  top: -5px;
+}
+.box_logo_ariotoys a{
+  width: 100%;
+}
+.box_logo_ariotoys img {
+  width: auto;
+  max-width: 100%;
+}
+.slogan{
+  float: none;
+  color: #e5101d;
+  display: block;
+  letter-spacing: -0.8px;
+  font-weight: bold;
+}
+
+.box_search_pc_ariotoys{
+  position: relative;
+  padding:  0 15px;
+}
+
+.cover_box_search_pc_ariotoys{
+  width: 100%;
+  position: relative;
+}
+
+
+.box_text_search_ariotoys button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #227688;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 40px;
+  text-align: center;
+}
+
+.box_text_search_ariotoys button i{
+  float: none;
+}
+
+.box_text_search_ariotoys{
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.box_text_search_ariotoys input{
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  padding-right: 50px;
+  height: 40px;
+  background-color: #3f3c3c;
+  border: none;
+  color: #a1a1a1;
+}
+
+.header2_right_ariotoys{
+  position: relative;
+  font-size: 1.3em;
+  z-index: 3;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.box_cover_header2_ariotoys_right{
+  ul{
+    li{
+      display:  inline-block;
+    }
+  }
+}
+.link_social{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.4s ease;
+}
+
+.item_social:nth-child(1) .link_social:hover{
+  background-color: #3b5998;
+  border:2px solid #3b5998;
+  color: $color-white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.item_social:nth-child(2):hover .link_social{
+  border: 2px solid #00aced;
+  background-color: #00aced;
+  color: $color-white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.item_social:nth-child(3):hover .link_social{
+  border: 2px solid #bb0000;
+  background-color: #bb0000;
+  color: $color-white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.item_social:nth-child(4):hover .link_social{
+  border: 2px solid #dd4b39;
+  background-color: #dd4b39;
+  color: $color-white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.item_social:nth-child(5):hover .link_social{
+  border: 2px solid #e67329;
+  background-color: #e67329;
+  color: $color-white;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}

@@ -1,0 +1,80 @@
+//WAPPER PRODUCT
+.product-item-cms-cms{
+  margin-top:  30px;
+  &:hover{
+    .category-product-cms {
+      li {
+        .wrapper {
+          box-shadow: 0px 2px 20px 0 rgba(0, 0, 0, 0.15);
+          .feature-image{
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+  .category-product-cms{
+    border: solid 1px #f0f0f0;
+    li{
+      .wrapper{
+        border-radius: 3px;
+        background-color: #ffffff;
+        transition: all 0.5s;
+        .feature-image{
+          position: relative;
+          background: #f9f9f9;
+          transition: all 0.5s;
+          @media screen and (min-width: 992px) {
+            width: 100%;
+            height: 270px;
+            overflow: hidden;
+            img{
+              width: 100%;
+              height:auto;
+              margin: 0 auto;
+            }
+          }
+          @media screen and (max-width: 991px) {
+            img{
+              width: 100%;
+              height:auto;
+              margin: 0 auto;
+              padding: 30px 0;
+            }
+          }
+        }
+        .stats{
+          padding: 20px;
+          .box-title{
+            .title-product{
+              a{
+                display: block;
+                font-size: 14px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 2.14;
+                letter-spacing: normal;
+                text-align: center;
+                color: #333333;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                @media screen and (max-width: 1199px) and (min-width: 992px) {
+                  font-size: 14px;
+                }
+                &:hover{
+                  color: #fcae1d;
+                }
+              }
+            }
+          }
+
+          .price-add-cart-cms{
+            padding-top: 10px;
+
+          }
+        }
+      }
+    }
+  }
+}

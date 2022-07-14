@@ -1,0 +1,62 @@
+.gb-doituongthamgia_ldp_daimond{
+  //background: url("../images/bg-footer.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  .gb-doituongthamgia_ldp_daimond-item{
+    padding-bottom: 50px;
+    .gb-doituongthamgia_ldp_daimond-item-img{
+      border: 2px solid $color-main-ldp-daimond;
+      padding: 10px;
+      height: 325px;
+      overflow: hidden;
+    }
+    .gb-doituongthamgia_ldp_daimond-item-text{
+      @media screen and (max-width: 991px) {
+        margin: 30px 0;
+      }
+      h3{
+        color: $color-main-ldp-daimond;
+        font-weight: 600;
+        line-height: 1.42857143;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      ul{
+        li{
+          position: relative;
+          font-size: 16px;
+          line-height: 26px;
+          padding-left: 20px;
+          &:before{
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: $color-main-ldp-daimond;
+            position: absolute;
+            left: 0;
+            top: 10px;
+          }
+        }
+      }
+      .btn-dangky_ldp_daimond{
+        margin-top: 20px;
+        a {
+          display: inline-block;
+          background: #c52027;
+          min-width: 150px;
+          padding: 15px 20px;
+          color: #fff;
+          border: 2px solid #c52027;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+          &:hover{
+            background: transparent;
+            color: #c52027;
+          }
+        }
+      }
+    }
+  }
+}

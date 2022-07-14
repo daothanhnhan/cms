@@ -1,0 +1,31 @@
+.box_breadcrumb{
+  margin: 20px 0;
+  background-color: #f5f5f5;
+  padding: 8px;
+}
+.box_breadcrumb{
+  ul{
+    li{
+      display: inline-block;
+      position: relative;
+      padding: 0 10px;
+      a{
+        font-size: 14px;
+        color: #bb9347;
+        text-transform: capitalize;
+        line-height: 15px;
+      }
+      &:before{
+        content: '/';
+        position: absolute;
+        right: -11px;
+        margin: 0 5px ;
+      }
+      &:last-child{
+        &:before{
+          content: "";
+        }
+      }
+    }
+  }
+}

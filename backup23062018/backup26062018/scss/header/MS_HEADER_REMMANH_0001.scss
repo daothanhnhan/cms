@@ -1,0 +1,73 @@
+/*TOP HEADER*/
+.gb-content{
+  overflow: hidden;
+}
+.gb-header-between_remmanh{
+  .gb-header-between_remmanh-logo{
+    h1{
+      a{
+
+      }
+    }
+  }
+  .gb-header-between_remmanh-right{
+    display: flex;
+    float:  right;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    .gb-header-hotline_remmanh{
+      display: flow-root;
+      float: left;
+      margin-right: 30px;
+      .icons{
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 2px solid $color-main;
+        border-radius: 50%;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: $color-main;
+      }
+      p{
+        padding-left: 70px;
+        color: $color-main;
+        font-size: 18px;
+        font-weight: 500;
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+        }
+        span{
+          padding-top: 10px;
+          display:  block;
+          font-size: 24px;
+          font-weight: 600;
+          @media screen and (max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .gb-header-dathang_remmanh{
+      a{
+        display:  inline-block;
+        border: 2px solid $color-main;
+        padding: 10px 20px;
+        color: $color-main;
+        font-weight: 600;
+        transition:  all 0.5s;
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+          padding: 10px 10px;
+        }
+        &:hover{
+          color: $color-white;
+          background:  $color-main;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.prices_vyhofoco{
+  .prices-news_vyhofoco{
+    font-size: 18px;
+    color: $color-1;
+    font-weight: 600;
+    line-height: 22px;
+    span{
+      font-size: 14px;
+      color: $color-grey;
+    }
+  }
+  .prices-old_vyhofoco{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: $color-grey;
+    line-height: 22px;
+    span{
+      color: $color-grey;
+    }
+  }
+}

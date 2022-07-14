@@ -1,0 +1,1 @@
+<p class="prices_datxanhmienbac"><span>Giá: </span> <?= $row['product_price'] ?></p>

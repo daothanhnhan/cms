@@ -1,0 +1,82 @@
+/*CHÚNH TÔI ĐÃ GIẢM CÂN*/
+.gb-chungtoi-dagiamcan_ldpgreencoffee{
+  .gb-chungtoi-dagiamcan_ldpgreencoffee-body{
+    //background: url(../images/slide6.jpg) 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0 100px 0;
+    .gb-chungtoi-dagiamcan_ldpgreencoffee-title{
+      h2{
+        font-size: 50px;
+        padding-top: 50px;
+        color: #ffcc00;
+        padding-bottom: 25px;
+        font-family: $opensans-1;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          font-size: 36px;
+        }
+      }
+      p{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #f5f6d4;
+        padding-bottom: 20px;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          font-size: 13px;
+        }
+      }
+    }
+    .gb-chungtoi-dagiamcan_ldpgreencoffee-content{
+      .gb-chungtoi-dagiamcan_ldpgreencoffee-item{
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        @media screen and (max-width: 991px) {
+          margin-bottom: 30px;
+        }
+        .item-header{
+          color: #333;
+          font-weight: 700;
+          font-size: 14px;
+          text-align: left;
+          span{
+            color: #d1570d;
+            margin-right: 10px;
+          }
+        }
+        .item-img{
+          margin: 20px 0;
+          border-radius: 10px;
+          overflow: hidden;
+          height: 230px;
+          @media screen and (max-width: 991px) {
+            height: auto;
+          }
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+        .item-kg{
+          .item-kg-old{
+            color: #999999;
+            font-size: 30px;
+            text-align: center;
+            span{
+              color: #d1570d;
+            }
+          }
+          .item-kg-new{
+            color: #999999;
+            font-size: 30px;
+            text-align: center;
+            span{
+              color: #a7c520;
+            }
+          }
+        }
+      }
+    }
+  }
+}

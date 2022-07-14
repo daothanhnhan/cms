@@ -1,0 +1,37 @@
+.gb-phuong-phap-toi-uu_ldp_daimond{
+  padding: 80px 0;
+}
+
+.gb-phuong-phap-toi-uu_ldp_daimond-item{
+  margin-bottom: 30px;
+  .gb-phuong-phap-toi-uu_ldp_daimond-item-text{
+    h2{
+      color: #0553a3;
+      font-weight: 600;
+      line-height: 1.42857143;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    ul{
+      li{
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 20px;
+        &:before{
+          content: '';
+          width: 7px;
+          height: 7px;
+          background: $color-main-ldp-daimond;
+          position: absolute;
+          left: 0;
+          top: 10px;
+        }
+      }
+    }
+  }
+  .gb-phuong-phap-toi-uu_ldp_daimond-item-img{
+    border: 2px solid $color-main-ldp-daimond;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.action_cart {
+  width: 100%;
+  float: left;
+  margin-top: 30px; }
+
+.action_cart > label {
+  font-size: 15px;
+  color: #555;
+  line-height: 31px;
+  float: left;
+  margin-right: 15px; }
+
+.action_cart > input {
+  width: 50px;
+  height: 31px;
+  padding: 0 10px;
+  border: 1px solid #eee;
+  outline: none;
+  color: #555;
+  margin-right: 15px; }
+
+.action_cart > button {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 31px;
+  background-color: #227688;
+  border: 2px solid #227688;
+  padding: 0 20px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .action_cart > button:hover {
+    color: #227688;
+    background: transparent; }
+
+.action_cart i {
+  color: #fff;
+  position: relative;
+  top: 2px; }

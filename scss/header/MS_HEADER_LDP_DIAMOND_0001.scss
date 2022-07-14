@@ -1,0 +1,100 @@
+/*TOP HEADER*/
+.is-sticky{
+  position: relative;
+  z-index: 9999;
+  @media screen and (max-width: 991px) {
+    visibility:  hidden;
+  }
+}
+.gb-header_ldp_diamond{
+  background: $color-6;
+}
+
+.gb-top-header_ldp_diamond{
+  padding: 5px 0;
+  border-bottom: 1px solid #505050;
+}
+/*BETWEEN HEADER*/
+.gb-between-header_ldp_diamond{
+  padding: 5px 0;
+  @media screen and (max-width: 767px) {
+    padding: 15px 0;
+    img{
+      width: 220px;
+    }
+  }
+  h1{
+    a{
+      display: block;
+    }
+  }
+}
+
+.gb-top-header-left_ldp_diamond{
+  font-size: 17px;
+  color: $color-main-ldp-daimond;
+  font-weight: 600;
+  background: #505050;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 15px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+}
+
+.gb-top-header-right_ldp_diamond{
+  ul{
+    li{
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+}
+/*LOGO*/
+.gb-top-header-logo_ldp_diamond{
+  h1{
+    a{
+      display: block;
+      width: 200px;
+      margin:  0 auto;
+      @media screen and (max-width: 600px) {
+        margin: 0;
+      }
+    }
+  }
+}
+
+/*search*/
+.gb-top-header-right-search_ldp_diamond{
+  margin-top: 15px;
+  .input-group{
+    border-radius: 50px;
+    overflow: hidden;
+    background: #505050;
+    .form-control{
+      background: transparent;
+      border-color: transparent;
+      color: $color-white;
+    }
+    .input-group-btn > .btn{
+      background: transparent;
+      border-color: transparent;
+      text-shadow:  none;
+      box-shadow:  none;
+      color: $color-main-ldp-daimond;
+    }
+  }
+}
+
+/*CART*/
+.gb-top-header-cart_ldp_diamond{
+  a{
+    display:  block;
+    font-size: 18px;
+    color: $color-main-ldp-daimond;
+  }
+}

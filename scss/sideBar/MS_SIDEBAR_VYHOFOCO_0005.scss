@@ -1,0 +1,51 @@
+.gb-sidebar-featured-vyhofoco{
+  ul{
+    li{
+      display: flex;
+      border-bottom: 1px solid $color-border;
+      margin-bottom: 10px;
+      &:last-child{
+        margin-bottom: 0;
+        border-bottom: none;
+        .item{
+          padding-bottom: 0;
+        }
+      }
+      .item{
+        padding-bottom: 10px;
+        .item-img{
+          width: 80px;
+          float: left;
+          border: 1px solid $color-grey;
+        }
+        .item-text{
+          padding-left: 95px;
+          h2{
+            margin-bottom: 10px;
+            a{
+              display: block;
+              font-size: 13px;
+              font-style: normal;
+              font-stretch: normal;
+              letter-spacing: normal;
+              text-align: left;
+              color: #a2a2a2;
+              line-height: 15px;
+              text-decoration: none;
+              transition: color .2s ease;
+              &:hover{
+                color: $color-main-vyhofoco;
+              }
+            }
+          }
+          .prices_vyhofoco .prices-news_vyhofoco{
+            font-size: 14px;
+          }
+          .prices_vyhofoco .prices-old_vyhofoco{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+/*about*/
+.uni-about-cms{
+  /*MAP*/
+  .uni-about-cms-map-cms {
+    position: relative;
+    padding-top:0;
+    iframe {
+      width: 100%;
+      height: 700px;
+      overflow: hidden;
+      filter: grayscale(100%);
+    }
+  }
+}
+.uni-about-cms-body{
+  padding-top: 100px;
+  .uni-services-title-cms{
+    h3{
+      font-size: 36px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: left;
+      color: #333333;
+      text-transform:  uppercase;
+    }
+  }
+  .uni-line{
+    width: 120px;
+    height: 1px;
+    background-color: #f0ad4e;
+    margin-top: 10px;
+  }
+
+  .uni-shortcode-team-2-cms{
+    padding: 80px 0;
+    .uni-services-title-cms{
+      padding-bottom: 80px;
+      h3{
+        text-align: center;
+        color: #333;
+      }
+    }
+  }
+}
+
+
+
+.uni-shortcode-tabs{
+  .uni-shortcode-tabs-body{
+    padding: 80px 0;
+    /* Default mode */
+  }
+}

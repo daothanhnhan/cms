@@ -1,0 +1,19 @@
+.gb-top-header_organic-right-social{
+  ul{
+    li{
+      display:  inline-block;
+      a{
+        display: block;
+        color: $color-white;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-1;
+        }
+      }
+    }
+  }
+}

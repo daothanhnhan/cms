@@ -1,0 +1,95 @@
+.gb-line{
+  border-right: 1px solid $color-grey;
+}
+.footer-main-content_xdshop{
+  background-color: #2f2f2f;
+  padding: 15px 0px;
+  .logo-footer{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .footer-main-content_xdshop-element{
+    .widget-title_xdshop{
+      font-size: 16px;
+      color: $color-white;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-weight: 600;
+    }
+    .gb-about-footer_xdshop{
+      p{
+        font-size: 14px;
+        color: $color-white;
+        line-height: 22px;
+      }
+    }
+    .gb-footer-link_xdshop{
+      ul{
+        li{
+          a{
+            display:  block;
+            font-size: 14px;
+            line-height: 25px;
+            color: $color-white;
+          }
+        }
+      }
+    }
+
+    .foot-danhmuc-noidung{
+      ul{
+        li{
+          margin-bottom: 5px;
+          a{
+            display:  block;
+            font-size: 14px;
+            line-height: 25px;
+            color: $color-white;
+          }
+        }
+      }
+    }
+    .footer-danhmucsanpham{
+      li{
+        margin-bottom: 5px;
+        a{
+          display:  block;
+          font-size: 14px;
+          line-height: 25px;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
+.copyright-area-xdshop{
+  background: $color-6;
+  overflow: hidden;
+  .copyright-content-xdshop{
+    border-top: 1px solid $color-white;
+    padding: 20px 0;
+  }
+  p{
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.footer-tag{
+  ul{
+    li{
+      display:  inline-block;
+      a{
+        display:  block;
+        font-size: 14px;
+        line-height: 22px;
+        color: $color-white;
+        border-right: 1px solid $color-white;
+        padding: 0 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.gb-chinhsach-giaohang-cms{
+  background: #eff2f6;
+  padding: 30px 15px 10px 15px;
+  border-top: 3px solid #f0ad4e;
+  ul{
+    li{
+      display: flex;
+      margin-bottom: 20px;
+      .icons{
+        font-size: 24px;
+        float: left;
+      }
+      .text{
+        padding-left: 10px;
+        p{
+          color: #333;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.5;
+          position: relative;
+        }
+        span{
+          display:  block;
+          font-size: 14px;
+        }
+        a{
+          display:  block;
+          color: #333333;
+          text-decoration: underline;
+          transition:  all 0.5s;
+          line-height: 1.5;
+          &:hover{
+            color: #f0ad4e;
+          }
+        }
+      }
+    }
+  }
+}

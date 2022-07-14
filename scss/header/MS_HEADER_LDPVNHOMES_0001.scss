@@ -1,0 +1,29 @@
+.gb-header_ldpvinhome{
+  .gb-header-between-logo_ldpvinhome{
+    @media screen and (max-width: 991px) {
+      height: 100px;
+    }
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+  .gb-header_ldpvinhome-hotline{
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    h4{
+      color: #d13138;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.uni-widget-archive-cms {
+  padding-top: 30px; }
+  .uni-widget-archive-cms ul li {
+    list-style-type: none;
+    border-bottom: 1px dashed #e0e0e0; }
+    .uni-widget-archive-cms ul li:last-child {
+      border-bottom: none; }
+    .uni-widget-archive-cms ul li a {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.7;
+      letter-spacing: normal;
+      text-align: left;
+      text-transform: capitalize;
+      color: #666666;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .uni-widget-archive-cms ul li a:hover {
+        color: #f0ad4e;
+        margin-left: 15px; }
+      .uni-widget-archive-cms ul li a i {
+        margin-right: 5px;
+        color: #f0ad4e; }

@@ -1,0 +1,23 @@
+.sub_CategoryProduct_Home_1_vyhofoco{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  p{
+    padding: 5px 1.5em 5px 1em;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    color: #fff;
+    background-color: $color-main-vyhofoco;
+    &:after{
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      border: 13px solid transparent;
+      border-right: 13px solid #fff;
+      top: 0;
+      right: 0;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.gb-contact_remmanh{
+  padding: 50px 0;
+  .gb-contact_remmanh-left{
+    .infoBoxReg_remmanh{
+      ul{
+        margin-top: 20px;
+        li{
+          font-size: 16px;
+          line-height: 1.5;
+          color: #dcdcdc;
+          font-weight: 600;
+          span{
+            padding-left: 5px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #dcdcdc;
+            font-weight:  normal;
+          }
+        }
+      }
+    }
+  }
+  .gb-contact_remmanh-right{
+
+    .gb-contact_remmanh-sdt{
+      border: 2px solid $color-main;
+      padding: 10px 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+      ul{
+        display:  flex;
+        li{
+          display:  flow-root;
+          float:  left;
+          width: 50%;
+          border-right: 2px solid  $color-main;
+          text-align: center;
+          &:last-child{
+            border-right:  none;
+          }
+          .icons{
+            width: 40px;
+            height: 40px;
+            border: 2px solid $color-main;
+            border-radius: 50%;
+            display:  flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-main;
+            font-size: 24px;
+            float:  left;
+            margin-right: 10px;
+          }
+          p{
+            font-size: 18px;
+            color: $color-main;
+            span{
+              font-weight:  bold;
+              padding-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

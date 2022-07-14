@@ -1,0 +1,101 @@
+.gb-xacnhandonhangthanhcong-cms{
+  .gb-xacnhandonhangthanhcong-cms-body-cms{
+    padding: 100px 0;
+  }
+  .gb-xacnhandonhangthanhcong-cms-top{
+    display:  flex;
+    margin-bottom: 40px;
+    .item-img-cms{
+      width: 50px;
+      float: left;
+    }
+    .item-text-cms{
+      padding-left: 20px;
+      margin-top: 10px;
+      h4{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        color: #404040;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      p{
+
+      }
+    }
+  }
+  .gb-xacnhandonhangthanhcong-cms-left-cms{
+    h3{
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      color: #404040;
+      text-transform: uppercase;
+      padding: 20px;
+      background: #f0ad4e;
+    }
+    ul{
+      li{
+        font-size: 14px;
+        text-align: left;
+        color: #404040;
+        line-height: 1.8;
+        span{
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .gb-xacnhandonhangthanhcong-cms-right-cms{
+    h3{
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      color: #404040;
+      text-transform: uppercase;
+      padding: 20px;
+      background: #f0ad4e;
+    }
+    .item-sanpham-info-cms{
+      .item-sanpham-info-cms-img-cms{
+        width: 80px;
+        float: left;
+      }
+      h2{
+        padding-left: 100px;
+        a{
+          font-size: 14px;
+          text-align: left;
+          color: #404040;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+      }
+    }
+    table{
+      tr{
+        td{
+
+        }
+        th{
+          font-weight: 600;
+        }
+      }
+      tfoot{
+        background: #f0ad4e;
+        tr{
+          td{
+            font-weight: 600;
+            padding: 20px 10px;
+          }
+          th{
+            font-weight: 600;
+            padding: 20px 10px;
+          }
+        }
+      }
+    }
+  }
+}

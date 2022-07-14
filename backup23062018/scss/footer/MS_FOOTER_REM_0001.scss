@@ -1,0 +1,61 @@
+.footer-main-content_remcanvas{
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+.copyright-area_remcanvas{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #7a7a7a;
+  }
+}
+.widget-title-footer-remcanvas{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/*footer-about-remcanvas*/
+.footer-about-remcanvas{
+  p{
+    font-size: 14px;
+    color: $color-grey;
+    line-height: 22px;
+  }
+}
+
+/*footer-recentpost-remcanvas*/
+.footer-recentpost-remcanvas{
+  &-item{
+    display: flex;
+    margin-bottom: 10px;
+    &-img{
+      width: 75px;
+      float:  left;
+      img{
+        width: 100%;
+        height: 75px;
+      }
+    }
+    &-text{
+      width: calc(100% - 75px);
+      float: left;
+      padding-left: 15px;
+      h5{
+        a{
+          font-size: 14px;
+          color: $color-grey;
+          line-height: 22px;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main-remcanvas;
+          }
+        }
+      }
+    }
+  }
+}

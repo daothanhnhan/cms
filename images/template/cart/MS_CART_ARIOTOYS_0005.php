@@ -1,0 +1,1 @@
+<a href="#" class="add_favorite_ariotoys" title="Thêm yêu thích"><i class="fa fa-heart" aria-hidden="true"></i> </a>

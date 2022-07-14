@@ -1,0 +1,31 @@
+.content_about_ariotoys{
+  position: relative;
+  margin-bottom: 20px;
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  p{
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    margin: 6px 0;
+    width:100%;
+  }
+  ul{
+    li{
+      font-size: 14px;
+      color: #666;
+      line-height: 24px;
+    }
+  }
+}
+
+.content_about_ariotoys img{
+  width: auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+}

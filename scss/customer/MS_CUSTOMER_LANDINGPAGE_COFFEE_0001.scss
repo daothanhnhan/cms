@@ -1,0 +1,113 @@
+/*Ý KIẾN CHUYÊN GIA VỀ GREEN COFFEE*/
+.gb-y-kien-chuyen-gia_ldpgreencoffee{
+  .gb-y-kien-chuyen-gia_ldpgreencoffee-body{
+    background: url("../images/slide4.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 685px;
+    @media screen and (max-width: 992px) {
+      overflow: hidden;
+    }
+    .gb-y-kien-chuyen-gia_ldpgreencoffee-left{
+      h2{
+        font-size: 36px;
+        color: #423B09;
+        text-align: center;
+        padding-top: 90px;
+      }
+      .gb-cursiv-cel{
+        p{
+          color: #0066cc;
+          font-family: $badscript;
+          font-size: 20px;
+          line-height: 30px;
+          font-style: italic;
+        }
+      }
+      .doctor_desription{
+        font-size: 12px;
+        margin-top: 40px;
+        span{
+          font-size: 14px;
+          display: block;
+          margin: 0 0 5px;
+        }
+      }
+      .s3ggirl{
+        background: url(//dadbab.info/content/Green_Coffee_VN1/img/girl.png) 0 0 no-repeat;
+        width: 440px;
+        height: 461px;
+        position: absolute;
+        left: -100px;
+        top: 224px;
+        z-index: 11;
+        @media screen and (max-width: 991px) {
+          display: none;
+        }
+      }
+      .gb-y-kien-chuyen-gia_ldpgreencoffee-description{
+        position: relative;
+        top: 60px;
+        width: 380px;
+        left: 246px;
+        @media screen and (max-width: 991px) {
+          width: auto;
+          left: 0;
+        }
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          left: 155px;
+          z-index: 999;
+        }
+      }
+    }
+    .gb-y-kien-chuyen-gia_ldpgreencoffee-right{
+      @media screen and (max-width: 991px) {
+        display:  none;
+      }
+      .gb-y-kien-chuyen-gia_ldpgreencoffee-right-img{
+        width: 260px;
+        position: relative;
+        padding-top: 185px;
+        background: url(../images/Layer-69.png) 50% 34px no-repeat;
+      }
+      h3{
+        font-size: 24px;
+        color: #666600;
+        text-align: center;
+        padding-bottom: 62px;
+        font-family: $opensans-1;
+      }
+      .gb-y-kien-chuyen-gia_ldpgreencoffee-right-content{
+        padding-left: 65px;
+        @media screen and (max-width: 1199px ) and (min-width: 992px) {
+          padding-left: 87px;
+        }
+        ul{
+          li{
+            font-size: 15px;
+            color: #333333;
+            padding-bottom: 15px;
+            position: relative;
+            padding-left: 5px;
+            text-align: left;
+            font-weight: 600;
+            list-style-type: disc;
+            line-height: 24px;
+            @media screen and (max-width: 1199px ) and (min-width: 992px) {
+              font-size: 13px;
+              padding-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+    .btn-dat-hang_ldpgreencoffee{
+      position: relative;
+      a{
+        position: absolute;
+        bottom: -220px;
+        left: 140px;
+      }
+    }
+  }
+}

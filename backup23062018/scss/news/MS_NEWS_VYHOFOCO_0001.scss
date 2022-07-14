@@ -1,0 +1,117 @@
+.gb-tinthoitrang_vyhofoco{
+  background: #fafafa;
+  padding: 50px 0;
+  .gb-tinthoitrang-title_vyhofoco{
+    text-align: center;
+    margin-bottom: 40px;
+    h4{
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      color: $color-main-vyhofoco;
+      display: inline-flex;
+      position: relative;
+      padding: 0 30px;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 3px;
+        background: $color-grey;
+        width: 100%;
+        left: -100%;
+        top: 12px;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        background: $color-grey;
+        width: 100%;
+        top: 12px;
+        margin-left: 30px;
+        right: -100%;
+      }
+    }
+    p{
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 20px;
+      color: $color-grey;
+    }
+  }
+}
+
+.gb-tinthoitrang_vyhofoco-item{
+  display: flow-root;
+  margin-bottom: 30px;
+  .gb-tinthoitrang_vyhofoco-img{
+    width: 35%;
+    float: left;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      float:  none;
+    }
+    img{
+      width: 100%;
+      height:  132px;
+      @media screen and (max-width: 767px) {
+        height:  auto;
+      }
+    }
+  }
+  .gb-tinthoitrang_vyhofoco-text{
+    width: calc(100% - 35%);
+    float: left;
+    padding-left: 20px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      float:  none;
+      padding-left: 0;
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    h3{
+      a{
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        color: $color-main-vyhofoco;
+        text-transform: uppercase;
+      }
+    }
+    .time_vyhofoco{
+      margin: 10px 0;
+      ul{
+        li{
+          display:  inline-block;
+          font-size: 16px;
+          margin-right: 10px;
+          color: $color-grey;
+          i{
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .des_vyhofoco{
+      font-size: 14px;
+      color: $color-grey;
+      line-height: 22px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      p{
+        font-size: 14px;
+        color: $color-grey;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+      }
+    }
+  }
+}

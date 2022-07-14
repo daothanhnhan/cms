@@ -1,0 +1,1 @@
+<button type="button" name="add-to-cart" class="single_add_to_cart_button-cms button alt btn_addCart">Add to cart</button>

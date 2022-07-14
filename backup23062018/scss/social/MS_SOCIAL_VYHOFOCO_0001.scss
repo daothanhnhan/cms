@@ -1,0 +1,15 @@
+.list_social_vyhofoco{
+  text-align:  right;
+  li{
+    display: inline-block;
+    a{
+      width: 40px;
+      height: 40px;
+      border: 1px solid #dbdbdb;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-grey;
+    }
+  }
+}
